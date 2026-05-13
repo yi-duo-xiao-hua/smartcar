@@ -1,0 +1,33 @@
+[0.249s] Invoking command in '/userdata/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/origincar_description -- -j8 -l8
+[2.786s] Invoked command in '/userdata/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/origincar_description -- -j8 -l8
+[2.838s] Invoking command in '/userdata/dev_ws/build/origincar_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/origincar_description
+[2.877s] -- Install configuration: ""
+[2.891s] -- Execute custom install script
+[2.895s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch
+[2.895s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/launch/display.launch.py
+[2.896s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/launch/gazebo.launch
+[2.897s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.urdf
+[2.897s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/urdf/origincar.xacro
+[2.899s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/rviz/README
+[2.899s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/rviz/display.rviz
+[2.900s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/base_link.STL
+[2.901s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/down_left_Link.STL
+[2.901s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/down_right_Link.STL
+[2.902s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/up_left_Link.STL
+[2.916s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/meshes/up_right_Link.STL
+[2.920s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/ament_index/resource_index/package_run_dependencies/origincar_description
+[2.922s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/ament_index/resource_index/parent_prefix_path/origincar_description
+[2.927s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.sh
+[2.928s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/environment/ament_prefix_path.dsv
+[2.928s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/environment/path.sh
+[2.929s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/environment/path.dsv
+[2.929s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/local_setup.bash
+[2.930s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/local_setup.sh
+[2.930s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/local_setup.zsh
+[2.931s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/local_setup.dsv
+[2.931s] -- Symlinking: /userdata/dev_ws/install/origincar_description/share/origincar_description/package.dsv
+[2.997s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/ament_index/resource_index/packages/origincar_description
+[3.009s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig.cmake
+[3.011s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/cmake/origincar_descriptionConfig-version.cmake
+[3.013s] -- Up-to-date symlink: /userdata/dev_ws/install/origincar_description/share/origincar_description/package.xml
+[3.050s] Invoked command in '/userdata/dev_ws/build/origincar_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/origincar_description

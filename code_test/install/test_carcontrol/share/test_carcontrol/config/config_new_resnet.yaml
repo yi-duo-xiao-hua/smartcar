@@ -1,1 +1,2 @@
-/userdata/code_test/build/test_carcontrol/config/config_new_resnet.yaml
+# 相对 code_test 工作空间根目录（见 start_race.sh 中的 CODE_TEST_ROOT）
+model: "src/test_carcontrol/model/resnet_0804_model_best1000.bin"

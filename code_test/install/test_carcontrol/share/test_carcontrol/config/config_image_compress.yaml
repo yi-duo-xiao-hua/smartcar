@@ -1,1 +1,3 @@
-/userdata/code_test/build/test_carcontrol/config/config_image_compress.yaml
+scale_factor: 0.5
+jpeg_quality: 50
+enable_compression: true

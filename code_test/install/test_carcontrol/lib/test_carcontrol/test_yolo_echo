@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-# EASY-INSTALL-ENTRY-SCRIPT: 'test-carcontrol','console_scripts','test_yolo_echo'
+# EASY-INSTALL-ENTRY-SCRIPT: 'test-carcontrol==0.0.0','console_scripts','test_yolo_echo'
 import re
 import sys
 
 # for compatibility with easy_install; see #2198
-__requires__ = 'test-carcontrol'
+__requires__ = 'test-carcontrol==0.0.0'
 
 try:
     from importlib.metadata import distribution
@@ -30,4 +30,4 @@ globals().setdefault('load_entry_point', importlib_load_entry_point)
 
 if __name__ == '__main__':
     sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
-    sys.exit(load_entry_point('test-carcontrol', 'console_scripts', 'test_yolo_echo')())
+    sys.exit(load_entry_point('test-carcontrol==0.0.0', 'console_scripts', 'test_yolo_echo')())

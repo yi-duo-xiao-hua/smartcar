@@ -17,10 +17,10 @@ def generate_launch_description():
         # 可覆盖：dnn_example_config_file:=/path/to/other_workconfig.json
         DeclareLaunchArgument(
             "dnn_example_config_file",
-            default_value=TextSubstitution(text="/userdata/dev_ws/config/yolov8_car_workconfig.json"),
+            default_value=TextSubstitution(text="/userdata/dev_ws/config/yolov5x_car_workconfig.json"),
         ),
         DeclareLaunchArgument("dnn_example_dump_render_img", default_value=TextSubstitution(text="0")),
-        # 与 yolov8_car.bin 内嵌输入 640x640 对齐（原 480x272 为 fcos 等其它模型尺寸）
+        # 与当前 dnn JSON 中模型输入尺寸一致（YOLOv5x 官方示例多为 672x672；若 bin 为 640 则改为 640）
         DeclareLaunchArgument("dnn_example_image_width", default_value=TextSubstitution(text="640")),
         DeclareLaunchArgument("dnn_example_image_height", default_value=TextSubstitution(text="640")),
         DeclareLaunchArgument("dnn_example_msg_pub_topic_name", default_value=TextSubstitution(text="hobot_dnn_detection")),
