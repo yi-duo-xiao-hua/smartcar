@@ -1,0 +1,127 @@
+[4.095s] Invoking command in '/userdata/code_test/src/test_carcontrol': AMENT_PREFIX_PATH=/userdata/code_test/install/test_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/code_test/install/test_interface LD_LIBRARY_PATH=/userdata/code_test/install/test_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_carcontrol build --build-base /userdata/code_test/build/test_carcontrol/build install --record /userdata/code_test/build/test_carcontrol/install.log --single-version-externally-managed install_data
+[5.738s] running egg_info
+[5.742s] creating ../../build/test_carcontrol/test_carcontrol.egg-info
+[5.743s] writing ../../build/test_carcontrol/test_carcontrol.egg-info/PKG-INFO
+[5.744s] writing dependency_links to ../../build/test_carcontrol/test_carcontrol.egg-info/dependency_links.txt
+[5.746s] writing entry points to ../../build/test_carcontrol/test_carcontrol.egg-info/entry_points.txt
+[5.747s] writing requirements to ../../build/test_carcontrol/test_carcontrol.egg-info/requires.txt
+[5.747s] writing top-level names to ../../build/test_carcontrol/test_carcontrol.egg-info/top_level.txt
+[5.748s] writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+[5.759s] reading manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+[5.766s] writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+[5.767s] running build
+[5.767s] running build_py
+[5.769s] creating /userdata/code_test/build/test_carcontrol/build
+[5.770s] creating /userdata/code_test/build/test_carcontrol/build/lib
+[5.771s] creating /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.771s] copying test_carcontrol/new_yolo_d.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.772s] copying test_carcontrol/depth_yolo2.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.773s] copying test_carcontrol/test_resnet.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.774s] copying test_carcontrol/test_carcontrol.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.775s] copying test_carcontrol/depth_logger.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.775s] copying test_carcontrol/new_ctrlpub.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.776s] copying test_carcontrol/new_pidctrl.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.777s] copying test_carcontrol/test_qrcode.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.777s] copying test_carcontrol/new_resnet.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.778s] copying test_carcontrol/new_videologger.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.779s] copying test_carcontrol/test_car_pid.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.780s] copying test_carcontrol/test_llm.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.780s] copying test_carcontrol/depth_image.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.781s] copying test_carcontrol/car_keyboard.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.782s] copying test_carcontrol/test_llm_local.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.783s] copying test_carcontrol/qrcode_wechat.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.783s] copying test_carcontrol/__init__.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.784s] copying test_carcontrol/image_comp.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.784s] copying test_carcontrol/code_test_paths.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.785s] copying test_carcontrol/depth_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.785s] copying test_carcontrol/new_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.786s] copying test_carcontrol/test_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+[5.786s] running install
+[5.788s] running install_lib
+[5.793s] creating /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.793s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_yolo_d.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.794s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_yolo2.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.795s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_resnet.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.796s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_carcontrol.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.797s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_logger.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.798s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_ctrlpub.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.798s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_pidctrl.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.799s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_qrcode.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.800s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_resnet.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.801s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_videologger.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.802s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_car_pid.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.802s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_llm.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.803s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_image.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.804s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/car_keyboard.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.805s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_llm_local.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.806s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/qrcode_wechat.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.806s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/__init__.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.807s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/image_comp.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.807s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/code_test_paths.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.807s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.808s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.809s] copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+[5.809s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_yolo_d.py to new_yolo_d.cpython-310.pyc
+[5.827s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_yolo2.py to depth_yolo2.cpython-310.pyc
+[5.832s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_resnet.py to test_resnet.cpython-310.pyc
+[5.835s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_carcontrol.py to test_carcontrol.cpython-310.pyc
+[5.837s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_logger.py to depth_logger.cpython-310.pyc
+[5.842s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_ctrlpub.py to new_ctrlpub.cpython-310.pyc
+[5.844s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_pidctrl.py to new_pidctrl.cpython-310.pyc
+[5.853s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_qrcode.py to test_qrcode.cpython-310.pyc
+[5.856s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_resnet.py to new_resnet.cpython-310.pyc
+[5.862s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_videologger.py to new_videologger.cpython-310.pyc
+[5.870s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_car_pid.py to test_car_pid.cpython-310.pyc
+[5.878s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_llm.py to test_llm.cpython-310.pyc
+[5.881s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_image.py to depth_image.cpython-310.pyc
+[5.887s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/car_keyboard.py to car_keyboard.cpython-310.pyc
+[5.893s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_llm_local.py to test_llm_local.cpython-310.pyc
+[5.896s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/qrcode_wechat.py to qrcode_wechat.cpython-310.pyc
+[5.900s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/__init__.py to __init__.cpython-310.pyc
+[5.901s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/image_comp.py to image_comp.cpython-310.pyc
+[5.904s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/code_test_paths.py to code_test_paths.cpython-310.pyc
+[5.908s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_yolo.py to depth_yolo.cpython-310.pyc
+[5.914s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_yolo.py to new_yolo.cpython-310.pyc
+[5.929s] byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_yolo.py to test_yolo.cpython-310.pyc
+[5.933s] running install_data
+[5.934s] creating /userdata/code_test/install/test_carcontrol/share/ament_index
+[5.935s] creating /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index
+[5.936s] creating /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index/packages
+[5.937s] copying resource/test_carcontrol -> /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index/packages
+[5.938s] copying package.xml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol
+[5.939s] creating /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch
+[5.939s] copying launch/race_with_origincar.launch.py -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch
+[5.940s] copying launch/race_bringup.launch.py -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch
+[5.940s] creating /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.941s] copying config/sr.caffemodel -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.941s] copying config/config_videologger.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.942s] copying config/detect.prototxt -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.942s] copying config/config_car_keyboard.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.943s] copying config/config_yolo_plan.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.943s] copying config/sr.prototxt -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.943s] copying config/detect.caffemodel -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.946s] copying config/config_image_compress.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.947s] copying config/config_new_yolo_d.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.948s] copying config/config_new_resnet.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+[5.948s] running install_egg_info
+[5.959s] Copying ../../build/test_carcontrol/test_carcontrol.egg-info to /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info
+[5.964s] running install_scripts
+[6.086s] Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.087s] Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.089s] Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.090s] Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.091s] Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.092s] Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.093s] Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.093s] Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.094s] Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.094s] Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.095s] Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.095s] Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.096s] Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.097s] Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.097s] Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.098s] Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.098s] Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.099s] writing list of installed files to '/userdata/code_test/build/test_carcontrol/install.log'
+[6.298s] Invoked command in '/userdata/code_test/src/test_carcontrol' returned '0': AMENT_PREFIX_PATH=/userdata/code_test/install/test_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/code_test/install/test_interface LD_LIBRARY_PATH=/userdata/code_test/install/test_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_carcontrol build --build-base /userdata/code_test/build/test_carcontrol/build install --record /userdata/code_test/build/test_carcontrol/install.log --single-version-externally-managed install_data

@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.001160] (-) JobUnselected: {'identifier': 'test_interface'}
+[0.001588] (-) JobUnselected: {'identifier': 'test_node'}
+[0.003698] (test_carcontrol) JobQueued: {'identifier': 'test_carcontrol', 'dependencies': OrderedDict([('test_interface', '/userdata/code_test/install/test_interface')])}
+[0.006116] (test_carcontrol) JobStarted: {'identifier': 'test_carcontrol'}
+[0.103700] (-) TimerEvent: {}
+[0.204899] (-) TimerEvent: {}
+[0.305993] (-) TimerEvent: {}
+[0.407074] (-) TimerEvent: {}
+[0.508059] (-) TimerEvent: {}
+[0.611867] (-) TimerEvent: {}
+[0.712950] (-) TimerEvent: {}
+[0.814043] (-) TimerEvent: {}
+[0.915058] (-) TimerEvent: {}
+[1.016081] (-) TimerEvent: {}
+[1.117272] (-) TimerEvent: {}
+[1.218272] (-) TimerEvent: {}
+[1.319256] (-) TimerEvent: {}
+[1.420380] (-) TimerEvent: {}
+[1.521402] (-) TimerEvent: {}
+[1.622427] (-) TimerEvent: {}
+[1.723914] (-) TimerEvent: {}
+[1.825104] (-) TimerEvent: {}
+[1.926349] (-) TimerEvent: {}
+[2.027350] (-) TimerEvent: {}
+[2.128750] (-) TimerEvent: {}
+[2.234465] (-) TimerEvent: {}
+[2.335577] (-) TimerEvent: {}
+[2.438105] (-) TimerEvent: {}
+[2.539232] (-) TimerEvent: {}
+[2.640252] (-) TimerEvent: {}
+[2.741302] (-) TimerEvent: {}
+[2.842351] (-) TimerEvent: {}
+[2.946636] (-) TimerEvent: {}
+[3.048718] (-) TimerEvent: {}
+[3.151494] (-) TimerEvent: {}
+[3.252664] (-) TimerEvent: {}
+[3.355691] (-) TimerEvent: {}
+[3.456751] (-) TimerEvent: {}
+[3.557963] (-) TimerEvent: {}
+[3.659189] (-) TimerEvent: {}
+[3.760452] (-) TimerEvent: {}
+[3.861508] (-) TimerEvent: {}
+[3.962481] (-) TimerEvent: {}
+[4.063491] (-) TimerEvent: {}
+[4.164482] (-) TimerEvent: {}
+[4.268119] (-) TimerEvent: {}
+[4.369175] (-) TimerEvent: {}
+[4.470260] (-) TimerEvent: {}
+[4.571325] (-) TimerEvent: {}
+[4.674482] (-) TimerEvent: {}
+[4.776393] (-) TimerEvent: {}
+[4.877435] (-) TimerEvent: {}
+[4.978497] (-) TimerEvent: {}
+[5.079758] (-) TimerEvent: {}
+[5.180811] (-) TimerEvent: {}
+[5.281833] (-) TimerEvent: {}
+[5.382935] (-) TimerEvent: {}
+[5.483908] (-) TimerEvent: {}
+[5.584917] (-) TimerEvent: {}
+[5.685922] (-) TimerEvent: {}
+[5.787123] (-) TimerEvent: {}
+[5.888195] (-) TimerEvent: {}
+[5.989537] (-) TimerEvent: {}
+[6.090724] (-) TimerEvent: {}
+[6.192667] (-) TimerEvent: {}
+[6.293829] (-) TimerEvent: {}
+[6.395009] (-) TimerEvent: {}
+[6.496164] (-) TimerEvent: {}
+[6.597333] (-) TimerEvent: {}
+[6.700538] (test_carcontrol) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_carcontrol', 'build', '--build-base', '/userdata/code_test/build/test_carcontrol/build', 'install', '--record', '/userdata/code_test/build/test_carcontrol/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/code_test/src/test_carcontrol', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.210.226 35449 22', 'GIT_EDITOR': ':', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/code_test/install/test_interface/lib:/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata/code_test', 'TERM_PROGRAM_VERSION': '1.119.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-5d74592b-25f6-4cdd-9de3-86a8ce9f7fea.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/node', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/code_test/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'ROS_LOCALHOST_ONLY': '0', 'HISTCONTROL': 'ignorespace', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-8b640eef5a6c6089c029249d48efa5c99adf7d51/server/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-dca5f7e362.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'GIT_PAGER': 'cat', 'PWD': '/userdata/code_test/build/test_carcontrol', 'GIT_MERGE_AUTOEDIT': 'no', 'SSH_CONNECTION': '192.168.210.226 35449 192.168.210.51 22', 'PYTHONPATH': '/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_node/lib/python3.10/site-packages:/userdata/code_test/build/test_carcontrol:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:/userdata/dev_ws/install/test_carcontrol/lib/python3.10/site-packages:/userdata/dev_ws/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[6.754751] (-) TimerEvent: {}
+[6.863622] (-) TimerEvent: {}
+[6.966296] (-) TimerEvent: {}
+[7.067470] (-) TimerEvent: {}
+[7.181466] (-) TimerEvent: {}
+[7.282485] (-) TimerEvent: {}
+[7.383710] (-) TimerEvent: {}
+[7.484744] (-) TimerEvent: {}
+[7.585820] (-) TimerEvent: {}
+[7.686885] (-) TimerEvent: {}
+[7.787977] (-) TimerEvent: {}
+[7.889103] (-) TimerEvent: {}
+[7.992775] (-) TimerEvent: {}
+[8.093763] (-) TimerEvent: {}
+[8.195598] (-) TimerEvent: {}
+[8.296807] (-) TimerEvent: {}
+[8.397883] (-) TimerEvent: {}
+[8.498837] (-) TimerEvent: {}
+[8.600663] (-) TimerEvent: {}
+[8.701712] (-) TimerEvent: {}
+[8.804100] (-) TimerEvent: {}
+[8.905163] (-) TimerEvent: {}
+[9.006340] (-) TimerEvent: {}
+[9.108314] (-) TimerEvent: {}
+[9.209347] (-) TimerEvent: {}
+[9.310401] (-) TimerEvent: {}
+[9.411569] (-) TimerEvent: {}
+[9.467247] (test_carcontrol) StdoutLine: {'line': b'running egg_info\n'}
+[9.473987] (test_carcontrol) StdoutLine: {'line': b'writing ../../build/test_carcontrol/test_carcontrol.egg-info/PKG-INFO\n'}
+[9.480950] (test_carcontrol) StdoutLine: {'line': b'writing dependency_links to ../../build/test_carcontrol/test_carcontrol.egg-info/dependency_links.txt\n'}
+[9.484208] (test_carcontrol) StdoutLine: {'line': b'writing entry points to ../../build/test_carcontrol/test_carcontrol.egg-info/entry_points.txt\n'}
+[9.488561] (test_carcontrol) StdoutLine: {'line': b'writing requirements to ../../build/test_carcontrol/test_carcontrol.egg-info/requires.txt\n'}
+[9.492632] (test_carcontrol) StdoutLine: {'line': b'writing top-level names to ../../build/test_carcontrol/test_carcontrol.egg-info/top_level.txt\n'}
+[9.504239] (test_carcontrol) StdoutLine: {'line': b"reading manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'\n"}
+[9.511777] (-) TimerEvent: {}
+[9.514053] (test_carcontrol) StdoutLine: {'line': b"writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'\n"}
+[9.516214] (test_carcontrol) StdoutLine: {'line': b'running build\n'}
+[9.519372] (test_carcontrol) StdoutLine: {'line': b'running build_py\n'}
+[9.526969] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/new_videologger_v2.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[9.528103] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/new_videologger.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[9.538183] (test_carcontrol) StdoutLine: {'line': b'running install\n'}
+[9.541398] (test_carcontrol) StdoutLine: {'line': b'running install_lib\n'}
+[9.557377] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_videologger_v2.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[9.560775] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_videologger.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[9.563976] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_videologger_v2.py to new_videologger_v2.cpython-310.pyc\n'}
+[9.580613] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_videologger.py to new_videologger.cpython-310.pyc\n'}
+[9.592082] (test_carcontrol) StdoutLine: {'line': b'running install_data\n'}
+[9.595386] (test_carcontrol) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.611684] (test_carcontrol) StdoutLine: {'line': b"removing '/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.612846] (-) TimerEvent: {}
+[9.622009] (test_carcontrol) StdoutLine: {'line': b'Copying ../../build/test_carcontrol/test_carcontrol.egg-info to /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info\n'}
+[9.623778] (test_carcontrol) StdoutLine: {'line': b'running install_scripts\n'}
+[9.713101] (-) TimerEvent: {}
+[9.793947] (test_carcontrol) StdoutLine: {'line': b'Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.795579] (test_carcontrol) StdoutLine: {'line': b'Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.797146] (test_carcontrol) StdoutLine: {'line': b'Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.798107] (test_carcontrol) StdoutLine: {'line': b'Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.799105] (test_carcontrol) StdoutLine: {'line': b'Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.801581] (test_carcontrol) StdoutLine: {'line': b'Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.802555] (test_carcontrol) StdoutLine: {'line': b'Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.803759] (test_carcontrol) StdoutLine: {'line': b'Installing new_videologger_v2 script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.804904] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.805938] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.810734] (test_carcontrol) StdoutLine: {'line': b'Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.815948] (-) TimerEvent: {}
+[9.823296] (test_carcontrol) StdoutLine: {'line': b'Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.824381] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.825139] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.825875] (test_carcontrol) StdoutLine: {'line': b'Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.830118] (test_carcontrol) StdoutLine: {'line': b'Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.831194] (test_carcontrol) StdoutLine: {'line': b'Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.832149] (test_carcontrol) StdoutLine: {'line': b'Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.833021] (test_carcontrol) StdoutLine: {'line': b"writing list of installed files to '/userdata/code_test/build/test_carcontrol/install.log'\n"}
+[9.913942] (-) TimerEvent: {}
+[10.015116] (-) TimerEvent: {}
+[10.108951] (test_carcontrol) CommandEnded: {'returncode': 0}
+[10.128068] (-) TimerEvent: {}
+[10.200057] (test_carcontrol) JobEnded: {'identifier': 'test_carcontrol', 'rc': 0}
+[10.205602] (-) EventReactorShutdown: {}

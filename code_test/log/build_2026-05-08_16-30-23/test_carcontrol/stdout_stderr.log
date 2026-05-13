@@ -1,0 +1,42 @@
+running egg_info
+writing ../../build/test_carcontrol/test_carcontrol.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_carcontrol/test_carcontrol.egg-info/dependency_links.txt
+writing entry points to ../../build/test_carcontrol/test_carcontrol.egg-info/entry_points.txt
+writing requirements to ../../build/test_carcontrol/test_carcontrol.egg-info/requires.txt
+writing top-level names to ../../build/test_carcontrol/test_carcontrol.egg-info/top_level.txt
+reading manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+running build
+running build_py
+copying test_carcontrol/new_videologger_v2.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/new_videologger.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+running install
+running install_lib
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_videologger_v2.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_videologger.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_videologger_v2.py to new_videologger_v2.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_videologger.py to new_videologger.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/test_carcontrol/test_carcontrol.egg-info to /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info
+running install_scripts
+Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_videologger_v2 script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+writing list of installed files to '/userdata/code_test/build/test_carcontrol/install.log'

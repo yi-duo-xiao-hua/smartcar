@@ -1,0 +1,25 @@
+{
+  "package_name": "test_interface",
+  "output_dir": "/userdata/code_test/build/test_interface/rosidl_typesupport_introspection_c/test_interface",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/userdata/code_test/build/test_interface/rosidl_adapter/test_interface:msg/ObjPosition.idl",
+    "/userdata/code_test/build/test_interface/rosidl_adapter/test_interface:msg/ResnetMsg.idl",
+    "/userdata/code_test/build/test_interface/rosidl_adapter/test_interface:msg/VideoLogMsg.idl",
+    "/userdata/code_test/build/test_interface/rosidl_adapter/test_interface:msg/ObjectMsg.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/userdata/code_test/build/test_interface/rosidl_adapter/test_interface/msg/ObjPosition.idl",
+    "/userdata/code_test/build/test_interface/rosidl_adapter/test_interface/msg/ResnetMsg.idl",
+    "/userdata/code_test/build/test_interface/rosidl_adapter/test_interface/msg/VideoLogMsg.idl",
+    "/userdata/code_test/build/test_interface/rosidl_adapter/test_interface/msg/ObjectMsg.idl"
+  ]
+}

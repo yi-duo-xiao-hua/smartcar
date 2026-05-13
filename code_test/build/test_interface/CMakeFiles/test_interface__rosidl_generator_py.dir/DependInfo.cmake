@@ -1,0 +1,24 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
+# The set of languages for which implicit dependencies are needed:
+set(CMAKE_DEPENDS_LANGUAGES
+  )
+
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/userdata/code_test/build/test_interface/rosidl_generator_py/test_interface/msg/_obj_position_s.c" "CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_obj_position_s.c.o" "gcc" "CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_obj_position_s.c.o.d"
+  "/userdata/code_test/build/test_interface/rosidl_generator_py/test_interface/msg/_object_msg_s.c" "CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_object_msg_s.c.o" "gcc" "CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_object_msg_s.c.o.d"
+  "/userdata/code_test/build/test_interface/rosidl_generator_py/test_interface/msg/_resnet_msg_s.c" "CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_resnet_msg_s.c.o" "gcc" "CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_resnet_msg_s.c.o.d"
+  "/userdata/code_test/build/test_interface/rosidl_generator_py/test_interface/msg/_video_log_msg_s.c" "CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_video_log_msg_s.c.o" "gcc" "CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_video_log_msg_s.c.o.d"
+  )
+
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/userdata/code_test/build/test_interface/CMakeFiles/test_interface__rosidl_typesupport_c.dir/DependInfo.cmake"
+  "/userdata/code_test/build/test_interface/CMakeFiles/test_interface__rosidl_generator_c.dir/DependInfo.cmake"
+  )
+
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

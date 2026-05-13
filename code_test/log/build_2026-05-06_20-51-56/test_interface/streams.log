@@ -1,0 +1,309 @@
+[0.120s] Invoking command in '/userdata/code_test/build/test_interface': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/code_test/src/test_interface -DCMAKE_INSTALL_PREFIX=/userdata/code_test/install/test_interface
+[1.923s] -- The C compiler identification is GNU 11.2.0
+[1.925s] -- The CXX compiler identification is GNU 11.2.0
+[1.927s] -- Detecting C compiler ABI info
+[1.928s] -- Detecting C compiler ABI info - done
+[1.930s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.931s] -- Detecting C compile features
+[1.933s] -- Detecting C compile features - done
+[1.933s] -- Detecting CXX compiler ABI info
+[1.935s] -- Detecting CXX compiler ABI info - done
+[1.937s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.938s] -- Detecting CXX compile features
+[1.941s] -- Detecting CXX compile features - done
+[1.941s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.529s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.049s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.096s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.299s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.080s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.591s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.727s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[7.734s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[7.893s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[7.894s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.894s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[7.895s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[8.021s] -- Found PythonExtra: .so  
+[8.221s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.309s] -- Added test 'lint_cmake' to check CMake code style
+[8.315s] -- Added test 'xmllint' to check XML markup files
+[8.328s] -- Configuring done
+[8.494s] -- Generating done
+[8.552s] -- Build files have been written to: /userdata/code_test/build/test_interface
+[8.585s] Invoked command in '/userdata/code_test/build/test_interface' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/code_test/src/test_interface -DCMAKE_INSTALL_PREFIX=/userdata/code_test/install/test_interface
+[8.593s] Invoking command in '/userdata/code_test/build/test_interface': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/code_test/build/test_interface -- -j8 -l8
+[8.766s] [  1%] Generating C code for ROS interfaces
+[8.806s] [  3%] Generating C++ code for ROS interfaces
+[8.840s] [  3%] Built target ament_cmake_python_copy_test_interface
+[10.451s] running egg_info
+[10.454s] creating test_interface.egg-info
+[10.455s] writing test_interface.egg-info/PKG-INFO
+[10.456s] writing dependency_links to test_interface.egg-info/dependency_links.txt
+[10.457s] writing top-level names to test_interface.egg-info/top_level.txt
+[10.459s] writing manifest file 'test_interface.egg-info/SOURCES.txt'
+[10.471s] reading manifest file 'test_interface.egg-info/SOURCES.txt'
+[10.474s] writing manifest file 'test_interface.egg-info/SOURCES.txt'
+[10.681s] [  3%] Built target ament_cmake_python_build_test_interface_egg
+[11.503s] [  3%] Built target test_interface__cpp
+[11.546s] [  7%] Generating C++ type support for eProsima Fast-RTPS
+[11.547s] [  7%] Generating C++ type support dispatch for ROS interfaces
+[11.550s] [  9%] Generating C++ introspection for ROS interfaces
+[11.755s] [ 14%] Building C object CMakeFiles/test_interface__rosidl_generator_c.dir/rosidl_generator_c/test_interface/msg/detail/object_msg__functions.c.o
+[11.755s] [ 14%] Building C object CMakeFiles/test_interface__rosidl_generator_c.dir/rosidl_generator_c/test_interface/msg/detail/resnet_msg__functions.c.o
+[11.756s] [ 16%] Building C object CMakeFiles/test_interface__rosidl_generator_c.dir/rosidl_generator_c/test_interface/msg/detail/video_log_msg__functions.c.o
+[11.757s] [ 16%] Building C object CMakeFiles/test_interface__rosidl_generator_c.dir/rosidl_generator_c/test_interface/msg/detail/obj_position__functions.c.o
+[12.052s] [ 18%] Linking C shared library libtest_interface__rosidl_generator_c.so
+[12.241s] [ 18%] Built target test_interface__rosidl_generator_c
+[12.283s] [ 21%] Generating C type support for eProsima Fast-RTPS
+[12.283s] [ 21%] Generating C introspection for ROS interfaces
+[12.284s] [ 23%] Generating C type support dispatch for ROS interfaces
+[13.652s] [ 25%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interface/msg/video_log_msg__type_support.cpp.o
+[13.658s] [ 27%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interface/msg/obj_position__type_support.cpp.o
+[13.684s] [ 29%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interface/msg/resnet_msg__type_support.cpp.o
+[14.371s] [ 30%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interface/msg/detail/obj_position__type_support.cpp.o
+[14.490s] [ 32%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/obj_position__type_support.cpp.o
+[14.604s] [ 34%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interface/msg/obj_position__type_support.cpp.o
+[14.855s] [ 36%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interface/msg/resnet_msg__type_support.cpp.o
+[15.010s] [ 38%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interface/msg/detail/obj_position__type_support.c.o
+[15.040s] [ 40%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interface/msg/video_log_msg__type_support.cpp.o
+[15.223s] [ 41%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interface/msg/detail/resnet_msg__type_support.c.o
+[15.242s] [ 43%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interface/msg/detail/obj_position__type_support_c.cpp.o
+[15.263s] [ 45%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interface/msg/object_msg__type_support.cpp.o
+[15.435s] [ 47%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interface/msg/detail/video_log_msg__type_support.c.o
+[15.481s] [ 49%] Linking CXX shared library libtest_interface__rosidl_typesupport_c.so
+[15.639s] [ 50%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interface/msg/detail/resnet_msg__type_support_c.cpp.o
+[15.643s] [ 52%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interface/msg/detail/object_msg__type_support.c.o
+[15.664s] [ 54%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interface/msg/object_msg__type_support.cpp.o
+[15.691s] [ 54%] Built target test_interface__rosidl_typesupport_c
+[15.716s] [ 56%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interface/msg/detail/video_log_msg__type_support_c.cpp.o
+[15.745s] [ 58%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interface/msg/detail/resnet_msg__type_support.cpp.o
+[15.861s] [ 60%] Linking C shared library libtest_interface__rosidl_typesupport_introspection_c.so
+[16.105s] [ 60%] Built target test_interface__rosidl_typesupport_introspection_c
+[16.174s] [ 61%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interface/msg/detail/video_log_msg__type_support.cpp.o
+[17.291s] [ 63%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interface/msg/detail/object_msg__type_support_c.cpp.o
+[17.376s] [ 65%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/resnet_msg__type_support.cpp.o
+[17.440s] [ 67%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interface/msg/detail/object_msg__type_support.cpp.o
+[17.493s] [ 69%] Linking CXX shared library libtest_interface__rosidl_typesupport_cpp.so
+[17.761s] [ 69%] Built target test_interface__rosidl_typesupport_cpp
+[17.820s] [ 70%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/object_msg__type_support.cpp.o
+[17.822s] [ 72%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/video_log_msg__type_support.cpp.o
+[19.595s] [ 74%] Linking CXX shared library libtest_interface__rosidl_typesupport_fastrtps_c.so
+[19.906s] [ 76%] Linking CXX shared library libtest_interface__rosidl_typesupport_introspection_cpp.so
+[20.062s] [ 76%] Built target test_interface__rosidl_typesupport_fastrtps_c
+[20.357s] [ 76%] Built target test_interface__rosidl_typesupport_introspection_cpp
+[20.590s] [ 78%] Linking CXX shared library libtest_interface__rosidl_typesupport_fastrtps_cpp.so
+[21.028s] [ 78%] Built target test_interface__rosidl_typesupport_fastrtps_cpp
+[21.113s] [ 78%] Built target test_interface
+[21.199s] [ 80%] Generating Python code for ROS interfaces
+[25.232s] [ 80%] Built target test_interface__py
+[25.321s] [ 87%] Building C object CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_object_msg_s.c.o
+[25.322s] [ 87%] Building C object CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_resnet_msg_s.c.o
+[25.323s] [ 87%] Building C object CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_obj_position_s.c.o
+[25.323s] [ 87%] Building C object CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_video_log_msg_s.c.o
+[25.939s] [ 89%] Linking C shared library rosidl_generator_py/test_interface/libtest_interface__rosidl_generator_py.so
+[26.155s] [ 89%] Built target test_interface__rosidl_generator_py
+[26.237s] [ 94%] Building C object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/test_interface/_test_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[26.237s] [ 94%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/test_interface/_test_interface_s.ep.rosidl_typesupport_introspection_c.c.o
+[26.238s] [ 94%] Building C object CMakeFiles/test_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/test_interface/_test_interface_s.ep.rosidl_typesupport_c.c.o
+[26.811s] [ 98%] Linking C shared library rosidl_generator_py/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[26.811s] [ 98%] Linking C shared library rosidl_generator_py/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[26.839s] [100%] Linking C shared library rosidl_generator_py/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[26.968s] [100%] Built target test_interface__rosidl_typesupport_c__pyext
+[26.973s] [100%] Built target test_interface__rosidl_typesupport_introspection_c__pyext
+[27.003s] [100%] Built target test_interface__rosidl_typesupport_fastrtps_c__pyext
+[27.058s] Invoked command in '/userdata/code_test/build/test_interface' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/code_test/build/test_interface -- -j8 -l8
+[27.102s] Invoking command in '/userdata/code_test/build/test_interface': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/code_test/build/test_interface
+[27.139s] -- Install configuration: ""
+[27.141s] -- Installing: /userdata/code_test/install/test_interface/share/ament_index/resource_index/rosidl_interfaces/test_interface
+[27.143s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[27.143s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[27.144s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/resnet_msg.h
+[27.146s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/video_log_msg.h
+[27.147s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_generator_c__visibility_control.h
+[27.148s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/object_msg.h
+[27.149s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/obj_position.h
+[27.150s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[27.151s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__functions.c
+[27.151s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__struct.h
+[27.153s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__functions.c
+[27.153s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.h
+[27.154s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__struct.h
+[27.156s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__functions.h
+[27.157s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.h
+[27.158s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__struct.h
+[27.159s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.h
+[27.160s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__functions.h
+[27.162s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__functions.h
+[27.163s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__functions.h
+[27.164s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__struct.h
+[27.165s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__functions.c
+[27.165s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.h
+[27.166s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__functions.c
+[27.167s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/library_path.sh
+[27.167s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/library_path.dsv
+[27.169s] -- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_c.so
+[27.171s] -- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_c.so" to ""
+[27.172s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[27.173s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[27.174s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.176s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[27.177s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_c.h
+[27.178s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_c.h
+[27.179s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_c.h
+[27.180s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_c.h
+[27.180s] -- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_c.so
+[27.182s] -- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_c.so" to ""
+[27.183s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[27.184s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[27.184s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.185s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[27.186s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.c
+[27.187s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.c
+[27.187s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_introspection_c.h
+[27.188s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_introspection_c.h
+[27.189s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.c
+[27.189s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.c
+[27.190s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_introspection_c.h
+[27.191s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_introspection_c.h
+[27.192s] -- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_c.so
+[27.193s] -- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_c.so" to ""
+[27.194s] -- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_c.so
+[27.195s] -- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_c.so" to ""
+[27.197s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[27.198s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[27.199s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/obj_position.hpp
+[27.200s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/resnet_msg.hpp
+[27.201s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[27.202s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__builder.hpp
+[27.203s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__traits.hpp
+[27.203s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__struct.hpp
+[27.204s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__traits.hpp
+[27.204s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__struct.hpp
+[27.205s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__traits.hpp
+[27.205s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__struct.hpp
+[27.205s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__struct.hpp
+[27.206s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__builder.hpp
+[27.206s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__builder.hpp
+[27.207s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__traits.hpp
+[27.207s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__builder.hpp
+[27.207s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/video_log_msg.hpp
+[27.208s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/object_msg.hpp
+[27.208s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[27.209s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[27.209s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[27.210s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/dds_fastrtps
+[27.210s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[27.210s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[27.211s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_cpp.hpp
+[27.211s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[27.212s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.212s] -- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_cpp.so
+[27.212s] -- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.213s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[27.213s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[27.214s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[27.214s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.cpp
+[27.215s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_introspection_cpp.hpp
+[27.215s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.cpp
+[27.215s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_introspection_cpp.hpp
+[27.216s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.cpp
+[27.216s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_introspection_cpp.hpp
+[27.217s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_introspection_cpp.hpp
+[27.217s] -- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.cpp
+[27.217s] -- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_cpp.so
+[27.218s] -- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[27.218s] -- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_cpp.so
+[27.219s] -- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_cpp.so" to ""
+[27.219s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/pythonpath.sh
+[27.219s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/pythonpath.dsv
+[27.220s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info
+[27.220s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[27.221s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[27.221s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[27.222s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/top_level.txt
+[27.222s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface
+[27.222s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[27.223s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg
+[27.223s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg.py
+[27.224s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position.py
+[27.224s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg_s.c
+[27.225s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg.py
+[27.225s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position_s.c
+[27.225s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg.py
+[27.226s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/__init__.py
+[27.226s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg_s.c
+[27.227s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg_s.c
+[27.227s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_c.c
+[27.228s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[27.228s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/libtest_interface__rosidl_generator_py.so
+[27.228s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/__init__.py
+[27.229s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_introspection_c.c
+[27.229s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[27.230s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[27.419s] Listing '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface'...
+[27.420s] Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/__init__.py'...
+[27.420s] Listing '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg'...
+[27.421s] Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/__init__.py'...
+[27.421s] Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position.py'...
+[27.421s] Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg.py'...
+[27.422s] Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg.py'...
+[27.422s] Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg.py'...
+[27.460s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[27.462s] -- Set runtime path of "/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[27.462s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[27.463s] -- Set runtime path of "/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[27.464s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[27.466s] -- Set runtime path of "/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[27.466s] -- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_py.so
+[27.468s] -- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_py.so" to ""
+[27.469s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjPosition.idl
+[27.471s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ResnetMsg.idl
+[27.472s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/VideoLogMsg.idl
+[27.473s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjectMsg.idl
+[27.473s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjPosition.msg
+[27.475s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ResnetMsg.msg
+[27.476s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/VideoLogMsg.msg
+[27.477s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjectMsg.msg
+[27.478s] -- Installing: /userdata/code_test/install/test_interface/share/ament_index/resource_index/package_run_dependencies/test_interface
+[27.479s] -- Installing: /userdata/code_test/install/test_interface/share/ament_index/resource_index/parent_prefix_path/test_interface
+[27.479s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/ament_prefix_path.sh
+[27.480s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/ament_prefix_path.dsv
+[27.481s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/path.sh
+[27.482s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/path.dsv
+[27.483s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/local_setup.bash
+[27.484s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/local_setup.sh
+[27.485s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/local_setup.zsh
+[27.486s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/local_setup.dsv
+[27.487s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/package.dsv
+[27.488s] -- Installing: /userdata/code_test/install/test_interface/share/ament_index/resource_index/packages/test_interface
+[27.489s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cExport.cmake
+[27.490s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cExport-noconfig.cmake
+[27.490s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[27.491s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.492s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport.cmake
+[27.493s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.494s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport.cmake
+[27.495s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport-noconfig.cmake
+[27.496s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cppExport.cmake
+[27.497s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.497s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.498s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport.cmake
+[27.498s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.499s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport.cmake
+[27.499s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[27.500s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_pyExport.cmake
+[27.500s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_pyExport-noconfig.cmake
+[27.500s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake-extras.cmake
+[27.501s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.501s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[27.502s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_targets-extras.cmake
+[27.502s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.503s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.508s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.509s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interfaceConfig.cmake
+[27.510s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interfaceConfig-version.cmake
+[27.511s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/package.xml
+[27.512s] Invoked command in '/userdata/code_test/build/test_interface' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/code_test/build/test_interface

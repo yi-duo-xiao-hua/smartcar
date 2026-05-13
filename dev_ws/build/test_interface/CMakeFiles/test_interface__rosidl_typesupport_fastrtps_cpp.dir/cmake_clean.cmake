@@ -1,0 +1,25 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/obj_position__type_support.cpp.o"
+  "CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/obj_position__type_support.cpp.o.d"
+  "CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/object_msg__type_support.cpp.o"
+  "CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/object_msg__type_support.cpp.o.d"
+  "CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/resnet_msg__type_support.cpp.o"
+  "CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/resnet_msg__type_support.cpp.o.d"
+  "CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/video_log_msg__type_support.cpp.o"
+  "CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/video_log_msg__type_support.cpp.o.d"
+  "libtest_interface__rosidl_typesupport_fastrtps_cpp.pdb"
+  "libtest_interface__rosidl_typesupport_fastrtps_cpp.so"
+  "rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/obj_position__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/object_msg__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/resnet_msg__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/video_log_msg__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_cpp.hpp"
+  "rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_cpp.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,37 @@
+[7.666s] Invoking command in '/userdata/dev_ws/src/code_test/src/test_node': PYTHONPATH=/userdata/dev_ws/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/test_node build --build-base /userdata/dev_ws/build/test_node/build install --record /userdata/dev_ws/build/test_node/install.log --single-version-externally-managed install_data
+[9.932s] running egg_info
+[9.942s] creating ../../../../build/test_node/test_node.egg-info
+[9.949s] writing ../../../../build/test_node/test_node.egg-info/PKG-INFO
+[9.959s] writing dependency_links to ../../../../build/test_node/test_node.egg-info/dependency_links.txt
+[9.963s] writing entry points to ../../../../build/test_node/test_node.egg-info/entry_points.txt
+[9.965s] writing requirements to ../../../../build/test_node/test_node.egg-info/requires.txt
+[9.974s] writing top-level names to ../../../../build/test_node/test_node.egg-info/top_level.txt
+[9.980s] writing manifest file '../../../../build/test_node/test_node.egg-info/SOURCES.txt'
+[9.982s] reading manifest file '../../../../build/test_node/test_node.egg-info/SOURCES.txt'
+[9.982s] writing manifest file '../../../../build/test_node/test_node.egg-info/SOURCES.txt'
+[10.001s] running build
+[10.002s] running build_py
+[10.003s] creating /userdata/dev_ws/build/test_node/build
+[10.005s] creating /userdata/dev_ws/build/test_node/build/lib
+[10.005s] creating /userdata/dev_ws/build/test_node/build/lib/test_node
+[10.006s] copying test_node/test_node_pwd.py -> /userdata/dev_ws/build/test_node/build/lib/test_node
+[10.007s] copying test_node/__init__.py -> /userdata/dev_ws/build/test_node/build/lib/test_node
+[10.007s] running install
+[10.008s] running install_lib
+[10.008s] creating /userdata/dev_ws/install/test_node/lib/python3.10/site-packages/test_node
+[10.009s] copying /userdata/dev_ws/build/test_node/build/lib/test_node/test_node_pwd.py -> /userdata/dev_ws/install/test_node/lib/python3.10/site-packages/test_node
+[10.010s] copying /userdata/dev_ws/build/test_node/build/lib/test_node/__init__.py -> /userdata/dev_ws/install/test_node/lib/python3.10/site-packages/test_node
+[10.010s] byte-compiling /userdata/dev_ws/install/test_node/lib/python3.10/site-packages/test_node/test_node_pwd.py to test_node_pwd.cpython-310.pyc
+[10.011s] byte-compiling /userdata/dev_ws/install/test_node/lib/python3.10/site-packages/test_node/__init__.py to __init__.cpython-310.pyc
+[10.012s] running install_data
+[10.012s] creating /userdata/dev_ws/install/test_node/share/ament_index
+[10.015s] creating /userdata/dev_ws/install/test_node/share/ament_index/resource_index
+[10.018s] creating /userdata/dev_ws/install/test_node/share/ament_index/resource_index/packages
+[10.021s] copying resource/test_node -> /userdata/dev_ws/install/test_node/share/ament_index/resource_index/packages
+[10.022s] copying package.xml -> /userdata/dev_ws/install/test_node/share/test_node
+[10.043s] running install_egg_info
+[10.044s] Copying ../../../../build/test_node/test_node.egg-info to /userdata/dev_ws/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info
+[10.045s] running install_scripts
+[10.211s] Installing pwd_node script to /userdata/dev_ws/install/test_node/lib/test_node
+[10.216s] writing list of installed files to '/userdata/dev_ws/build/test_node/install.log'
+[10.494s] Invoked command in '/userdata/dev_ws/src/code_test/src/test_node' returned '0': PYTHONPATH=/userdata/dev_ws/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/test_node build --build-base /userdata/dev_ws/build/test_node/build install --record /userdata/dev_ws/build/test_node/install.log --single-version-externally-managed install_data

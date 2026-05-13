@@ -1,0 +1,6 @@
+Invoking command in '/userdata/code_test/build/test_interface': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/code_test/src/test_interface -DCMAKE_INSTALL_PREFIX=/userdata/code_test/install/test_interface
+Invoked command in '/userdata/code_test/build/test_interface' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/code_test/src/test_interface -DCMAKE_INSTALL_PREFIX=/userdata/code_test/install/test_interface
+Invoking command in '/userdata/code_test/build/test_interface': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/code_test/build/test_interface -- -j8 -l8
+Invoked command in '/userdata/code_test/build/test_interface' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/code_test/build/test_interface -- -j8 -l8
+Invoking command in '/userdata/code_test/build/test_interface': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/code_test/build/test_interface
+Invoked command in '/userdata/code_test/build/test_interface' returned '0': CMAKE_PREFIX_PATH=/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/code_test/build/test_interface

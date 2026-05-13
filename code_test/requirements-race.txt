@@ -1,0 +1,4 @@
+# race_bringup 常用 Python 依赖（未写入 ros package.xml 时需手动安装）
+requests>=2.25
+shapely>=1.8
+pyzbar>=0.1.9

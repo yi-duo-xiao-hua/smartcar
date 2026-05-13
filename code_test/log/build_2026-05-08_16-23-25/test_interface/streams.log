@@ -1,0 +1,210 @@
+[0.199s] Invoking command in '/userdata/code_test/build/test_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/code_test/build/test_interface -- -j8 -l8
+[0.823s] [  1%] Built target test_interface__cpp
+[1.087s] [  1%] Built target ament_cmake_python_copy_test_interface
+[1.157s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_introspection_cpp[0m
+[1.366s] [ 12%] Built target test_interface__rosidl_typesupport_introspection_cpp
+[4.331s] running egg_info
+[4.339s] writing test_interface.egg-info/PKG-INFO
+[4.345s] writing dependency_links to test_interface.egg-info/dependency_links.txt
+[4.347s] writing top-level names to test_interface.egg-info/top_level.txt
+[4.365s] reading manifest file 'test_interface.egg-info/SOURCES.txt'
+[4.368s] writing manifest file 'test_interface.egg-info/SOURCES.txt'
+[4.693s] [ 12%] Built target ament_cmake_python_build_test_interface_egg
+[4.774s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_fastrtps_cpp[0m
+[4.916s] [ 23%] Built target test_interface__rosidl_typesupport_fastrtps_cpp
+[5.020s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_cpp[0m
+[5.178s] [ 34%] Built target test_interface__rosidl_typesupport_cpp
+[5.259s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_generator_c[0m
+[5.368s] [ 45%] Built target test_interface__rosidl_generator_c
+[5.445s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_fastrtps_c[0m
+[5.600s] [ 56%] Built target test_interface__rosidl_typesupport_fastrtps_c
+[5.674s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_c[0m
+[5.777s] [ 67%] Built target test_interface__rosidl_typesupport_c
+[5.853s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_introspection_c[0m
+[5.945s] [ 78%] Built target test_interface__rosidl_typesupport_introspection_c
+[6.112s] [ 78%] Built target test_interface
+[6.255s] [ 80%] Built target test_interface__py
+[6.323s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_generator_py[0m
+[6.499s] [ 89%] Built target test_interface__rosidl_generator_py
+[6.563s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.691s] [ 92%] Built target test_interface__rosidl_typesupport_fastrtps_c__pyext
+[6.756s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_c__pyext[0m
+[6.859s] [ 96%] Built target test_interface__rosidl_typesupport_c__pyext
+[6.929s] [35m[1mConsolidate compiler generated dependencies of target test_interface__rosidl_typesupport_introspection_c__pyext[0m
+[7.036s] [100%] Built target test_interface__rosidl_typesupport_introspection_c__pyext
+[7.153s] Invoked command in '/userdata/code_test/build/test_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/code_test/build/test_interface -- -j8 -l8
+[7.211s] Invoking command in '/userdata/code_test/build/test_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/code_test/build/test_interface
+[7.271s] -- Install configuration: ""
+[7.272s] -- Up-to-date: /userdata/code_test/install/test_interface/share/ament_index/resource_index/rosidl_interfaces/test_interface
+[7.323s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[7.336s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[7.339s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/resnet_msg.h
+[7.342s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/video_log_msg.h
+[7.344s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_generator_c__visibility_control.h
+[7.347s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/object_msg.h
+[7.350s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/obj_position.h
+[7.353s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[7.356s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__functions.c
+[7.358s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__struct.h
+[7.361s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__functions.c
+[7.363s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.h
+[7.367s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__struct.h
+[7.370s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__functions.h
+[7.372s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.h
+[7.375s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__struct.h
+[7.378s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.h
+[7.380s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__functions.h
+[7.383s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__functions.h
+[7.385s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__functions.h
+[7.388s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__struct.h
+[7.391s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__functions.c
+[7.393s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.h
+[7.397s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__functions.c
+[7.399s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/library_path.sh
+[7.402s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/library_path.dsv
+[7.405s] -- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_c.so
+[7.409s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[7.414s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[7.419s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.424s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[7.429s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_c.h
+[7.434s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_c.h
+[7.439s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_c.h
+[7.445s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_c.h
+[7.449s] -- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_c.so
+[7.452s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[7.456s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[7.460s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[7.462s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[7.463s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.c
+[7.464s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.c
+[7.466s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_introspection_c.h
+[7.467s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_introspection_c.h
+[7.468s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.c
+[7.469s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.c
+[7.470s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_introspection_c.h
+[7.474s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_introspection_c.h
+[7.475s] -- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_c.so
+[7.476s] -- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_c.so
+[7.477s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[7.478s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[7.478s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/obj_position.hpp
+[7.479s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/resnet_msg.hpp
+[7.480s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[7.481s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__builder.hpp
+[7.482s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__traits.hpp
+[7.483s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__struct.hpp
+[7.487s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__traits.hpp
+[7.488s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__struct.hpp
+[7.489s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__traits.hpp
+[7.492s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__struct.hpp
+[7.493s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__struct.hpp
+[7.494s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__builder.hpp
+[7.495s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__builder.hpp
+[7.498s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__traits.hpp
+[7.499s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__builder.hpp
+[7.501s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/video_log_msg.hpp
+[7.501s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/object_msg.hpp
+[7.502s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[7.504s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[7.505s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[7.506s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/dds_fastrtps
+[7.507s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.508s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.510s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_cpp.hpp
+[7.511s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[7.512s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.514s] -- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_cpp.so
+[7.515s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface
+[7.516s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg
+[7.518s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail
+[7.519s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.cpp
+[7.520s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.522s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.cpp
+[7.523s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_introspection_cpp.hpp
+[7.526s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.cpp
+[7.528s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.530s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_introspection_cpp.hpp
+[7.532s] -- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.cpp
+[7.533s] -- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_cpp.so
+[7.534s] -- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_cpp.so
+[7.536s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/pythonpath.sh
+[7.538s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/pythonpath.dsv
+[7.543s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info
+[7.544s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+[7.545s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/PKG-INFO
+[7.551s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+[7.555s] -- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/top_level.txt
+[7.559s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface
+[7.560s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.561s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg
+[7.562s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg.py
+[7.563s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position.py
+[7.564s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg_s.c
+[7.565s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg.py
+[7.567s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position_s.c
+[7.568s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg.py
+[7.569s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/__init__.py
+[7.570s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg_s.c
+[7.570s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg_s.c
+[7.571s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_c.c
+[7.572s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[7.574s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/libtest_interface__rosidl_generator_py.so
+[7.574s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/__init__.py
+[7.575s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_introspection_c.c
+[7.576s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.577s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.721s] Listing '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface'...
+[7.730s] Listing '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg'...
+[7.810s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[7.811s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[7.812s] -- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[7.814s] -- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_py.so
+[7.820s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjPosition.idl
+[7.821s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ResnetMsg.idl
+[7.826s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/VideoLogMsg.idl
+[7.828s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjectMsg.idl
+[7.836s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjPosition.msg
+[7.838s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ResnetMsg.msg
+[7.841s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/VideoLogMsg.msg
+[7.845s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjectMsg.msg
+[7.846s] -- Up-to-date: /userdata/code_test/install/test_interface/share/ament_index/resource_index/package_run_dependencies/test_interface
+[7.847s] -- Up-to-date: /userdata/code_test/install/test_interface/share/ament_index/resource_index/parent_prefix_path/test_interface
+[7.855s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/ament_prefix_path.sh
+[7.856s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/ament_prefix_path.dsv
+[7.857s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/path.sh
+[7.859s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/path.dsv
+[7.862s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/local_setup.bash
+[7.867s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/local_setup.sh
+[7.871s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/local_setup.zsh
+[7.871s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/local_setup.dsv
+[7.873s] -- Installing: /userdata/code_test/install/test_interface/share/test_interface/package.dsv
+[7.878s] -- Up-to-date: /userdata/code_test/install/test_interface/share/ament_index/resource_index/packages/test_interface
+[7.895s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cExport.cmake
+[7.898s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cExport-noconfig.cmake
+[7.899s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[7.900s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.901s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport.cmake
+[7.902s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.904s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport.cmake
+[7.905s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport-noconfig.cmake
+[7.906s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cppExport.cmake
+[7.907s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.908s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.909s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport.cmake
+[7.910s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.911s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport.cmake
+[7.912s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[7.913s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_pyExport.cmake
+[7.932s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_pyExport-noconfig.cmake
+[7.932s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake-extras.cmake
+[7.933s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.934s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[7.935s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_targets-extras.cmake
+[7.936s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.937s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.958s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.960s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interfaceConfig.cmake
+[7.961s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interfaceConfig-version.cmake
+[7.962s] -- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/package.xml
+[7.979s] Invoked command in '/userdata/code_test/build/test_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/code_test/build/test_interface

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <title>Rosbridge WebSocket 连通性测试</title>
+  <style>
+    body { font-family: sans-serif; margin: 1rem; max-width: 48rem; }
+    code, pre { background: #f4f4f4; padding: 0.2em 0.4em; }
+    #log { white-space: pre-wrap; border: 1px solid #ccc; padding: 0.75rem; min-height: 6rem; }
+    .ok { color: #0a0; } .err { color: #c00; }
+  </style>
+</head>
+<body>
+  <h1>Rosbridge WebSocket 测试</h1>
+  <p>不要用地址栏打开 <code>http://…:9090</code>（那是 HTTP，会报错）。在下方填主机与端口，点击连接，应看到 WebSocket 已打开。</p>
+  <p>
+    <label>主机 <input id="host" type="text" value="127.0.0.1" size="20" /></label>
+    <label>端口 <input id="port" type="text" value="9090" size="6" /></label>
+    <button id="btn" type="button">连接 ws://</button>
+  </p>
+  <div id="log"></div>
+  <script>
+    const log = (msg, cls) => {
+      const el = document.getElementById("log");
+      const line = document.createElement("div");
+      line.className = cls || "";
+      line.textContent = new Date().toISOString() + " " + msg;
+      el.appendChild(line);
+    };
+    document.getElementById("btn").onclick = () => {
+      const host = document.getElementById("host").value.trim() || "127.0.0.1";
+      const port = document.getElementById("port").value.trim() || "9090";
+      const url = "ws://" + host + ":" + port + "/";
+      log("Connecting " + url + " …");
+      const ws = new WebSocket(url);
+      ws.onopen = () => log("WebSocket 已连接（说明 rosbridge 正常）", "ok");
+      ws.onerror = () => log("WebSocket 错误（检查防火墙、IP、rosbridge 是否在运行）", "err");
+      ws.onclose = (e) => log("关闭 code=" + e.code + " reason=" + (e.reason || ""));
+      ws.onmessage = (e) => log("收到: " + (typeof e.data === "string" ? e.data : "[binary]"));
+    };
+  </script>
+</body>
+</html>

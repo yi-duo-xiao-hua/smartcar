@@ -1,0 +1,9 @@
+{
+  "package_name": "test_interface",
+  "non_idl_tuples": [
+    "/userdata/code_test/src/test_interface:msg/ObjPosition.msg",
+    "/userdata/code_test/src/test_interface:msg/ResnetMsg.msg",
+    "/userdata/code_test/src/test_interface:msg/VideoLogMsg.msg",
+    "/userdata/code_test/src/test_interface:msg/ObjectMsg.msg"
+  ]
+}

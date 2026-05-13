@@ -1,0 +1,132 @@
+[0.000000] (-) TimerEvent: {}
+[0.001885] (-) JobUnselected: {'identifier': 'test_interface'}
+[0.002172] (-) JobUnselected: {'identifier': 'test_node'}
+[0.002481] (test_carcontrol) JobQueued: {'identifier': 'test_carcontrol', 'dependencies': OrderedDict([('test_interface', '/userdata/code_test/install/test_interface')])}
+[0.002733] (test_carcontrol) JobStarted: {'identifier': 'test_carcontrol'}
+[0.102602] (-) TimerEvent: {}
+[0.203518] (-) TimerEvent: {}
+[0.304019] (-) TimerEvent: {}
+[0.404507] (-) TimerEvent: {}
+[0.505015] (-) TimerEvent: {}
+[0.605540] (-) TimerEvent: {}
+[0.706069] (-) TimerEvent: {}
+[0.806604] (-) TimerEvent: {}
+[0.907131] (-) TimerEvent: {}
+[1.007643] (-) TimerEvent: {}
+[1.108156] (-) TimerEvent: {}
+[1.208669] (-) TimerEvent: {}
+[1.309183] (-) TimerEvent: {}
+[1.409685] (-) TimerEvent: {}
+[1.510190] (-) TimerEvent: {}
+[1.610709] (-) TimerEvent: {}
+[1.711220] (-) TimerEvent: {}
+[1.811735] (-) TimerEvent: {}
+[1.912252] (-) TimerEvent: {}
+[2.012771] (-) TimerEvent: {}
+[2.113317] (-) TimerEvent: {}
+[2.213869] (-) TimerEvent: {}
+[2.314369] (-) TimerEvent: {}
+[2.414885] (-) TimerEvent: {}
+[2.515427] (-) TimerEvent: {}
+[2.615948] (-) TimerEvent: {}
+[2.716471] (-) TimerEvent: {}
+[2.816991] (-) TimerEvent: {}
+[2.917537] (-) TimerEvent: {}
+[3.018073] (-) TimerEvent: {}
+[3.118580] (-) TimerEvent: {}
+[3.219109] (-) TimerEvent: {}
+[3.319626] (-) TimerEvent: {}
+[3.420158] (-) TimerEvent: {}
+[3.520667] (-) TimerEvent: {}
+[3.621198] (-) TimerEvent: {}
+[3.721699] (-) TimerEvent: {}
+[3.822213] (-) TimerEvent: {}
+[3.922767] (-) TimerEvent: {}
+[4.023278] (-) TimerEvent: {}
+[4.123786] (-) TimerEvent: {}
+[4.224500] (-) TimerEvent: {}
+[4.325053] (-) TimerEvent: {}
+[4.425590] (-) TimerEvent: {}
+[4.526135] (-) TimerEvent: {}
+[4.626691] (-) TimerEvent: {}
+[4.727236] (-) TimerEvent: {}
+[4.827769] (-) TimerEvent: {}
+[4.928285] (-) TimerEvent: {}
+[5.028836] (-) TimerEvent: {}
+[5.129397] (-) TimerEvent: {}
+[5.196421] (test_carcontrol) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/userdata/code_test/build/test_carcontrol/build', '--no-deps', 'symlink_data'], 'cwd': '/userdata/code_test/build/test_carcontrol', 'env': {'npm_config_devdir': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/node-gyp', 'VSCODE_CWD': '/root', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'PUPPETEER_CACHE_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/puppeteer', 'HTTPS_PROXY': 'http://127.0.0.1:38985', 'no_proxy': '127.0.0.1,::1,localhost', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.85.2 54290 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'CARGO_TARGET_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/cargo-target', 'CCACHE_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/ccache', 'all_proxy': 'http://127.0.0.1:38985', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'CURSOR_RIPGREP_PATH': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/node_modules/@vscode/ripgrep/bin/rg', 'PIP_CACHE_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/pip', 'NUGET_PACKAGES': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/nuget', 'HOMEBREW_CACHE': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/homebrew', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/userdata/code_test/install/test_interface/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'SOCKS_PROXY': 'socks5://127.0.0.1:40777', 'BROWSER': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata', 'NO_PROXY': '127.0.0.1,::1,localhost', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-d6a4a4d0-4d9e-49b4-9198-2184137dd94a.sock', 'ROS_PYTHON_VERSION': '3', 'CURSOR_ORIG_UID': '0', 'NO_COLOR': '1', 'CONDA_PKGS_DIRS': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/conda', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COMPOSER_HOME': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/composer', 'https_proxy': 'http://127.0.0.1:38985', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/userdata/code_test/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'OVSX_REGISTRY_URL': 'https://open-vsx.org', 'LOGNAME': 'root', 'FORCE_COLOR': '0', 'ALL_PROXY': 'http://127.0.0.1:38985', 'VSCODE_HANDLES_SIGPIPE': 'true', 'http_proxy': 'http://127.0.0.1:38985', 'BUN_INSTALL_CACHE_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/bun', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'CURSOR_LAYOUT': 'unifiedAgent', 'GOMODCACHE': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/go-mod', 'XDG_SESSION_CLASS': 'user', 'CP_HOME_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/cocoapods', 'socks_proxy': 'socks5://127.0.0.1:40777', 'TERM': 'dumb', 'XDG_SESSION_ID': '48', 'SOCKS5_PROXY': 'socks5://127.0.0.1:40777', 'ROS_LOCALHOST_ONLY': '0', 'POETRY_CACHE_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/poetry', 'PATH': '/usr/hobot/bin/:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'YARN_CACHE_FOLDER': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/yarn', 'VSCODE_AGENT_FOLDER': '/root/.cursor-server', 'UV_CACHE_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/uv', 'PLAYWRIGHT_BROWSERS_PATH': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/playwright', 'XDG_RUNTIME_DIR': '/run/user/0', 'BUNDLE_PATH': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/bundle', 'CURSOR_AGENT': '1', 'LANG': 'en_US.UTF-8', 'NX_CACHE_DIRECTORY': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/nx', 'LS_COLORS': '', 'CYPRESS_CACHE_FOLDER': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/cypress', 'PNPM_STORE_PATH': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/pnpm-store', 'AMENT_PREFIX_PATH': '/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'CURSOR_SANDBOX': 'native', 'VSCODE_SERVER_SHUTDOWN_TIMEOUT': '300', 'GOCACHE': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/go-build', 'ELECTRON_RUN_AS_NODE': '1', 'GIT_HTTP_PROXY': 'http://127.0.0.1:38985', 'socks5_proxy': 'socks5://127.0.0.1:40777', 'NPM_CONFIG_CACHE': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/npm', 'PWD': '/userdata/code_test/build/test_carcontrol', 'GRADLE_USER_HOME': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/gradle', 'SSH_CONNECTION': '192.168.85.2 54290 192.168.85.248 22', 'CURSOR_ORIG_GID': '0', 'GIT_HTTPS_PROXY': 'http://127.0.0.1:38985', 'PYTHONPATH': '/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_node/lib/python3.10/site-packages:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:/userdata/dev_ws/install/test_carcontrol/lib/python3.10/site-packages:/userdata/dev_ws/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'HTTP_PROXY': 'http://127.0.0.1:38985', 'TURBO_CACHE_DIR': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/turbo', 'COLCON': '1', '__CURSOR_SANDBOX_ENV_RESTORE': "builtin export HTTP_PROXY='http://127.0.0.1:38985'; builtin export HTTPS_PROXY='http://127.0.0.1:38985'; builtin export http_proxy='http://127.0.0.1:38985'; builtin export https_proxy='http://127.0.0.1:38985'; builtin export GIT_HTTP_PROXY='http://127.0.0.1:38985'; builtin export GIT_HTTPS_PROXY='http://127.0.0.1:38985'; builtin export SOCKS_PROXY='socks5://127.0.0.1:40777'; builtin export SOCKS5_PROXY='socks5://127.0.0.1:40777'; builtin export socks_proxy='socks5://127.0.0.1:40777'; builtin export socks5_proxy='socks5://127.0.0.1:40777'; builtin export ALL_PROXY='http://127.0.0.1:38985'; builtin export all_proxy='http://127.0.0.1:38985'; builtin export NO_PROXY='127.0.0.1,::1,localhost'; builtin export no_proxy='127.0.0.1,::1,localhost'", '_ZO_DOCTOR': '0', 'GEM_SPEC_CACHE': '/tmp/cursor-sandbox-cache/a75fd23913b7abd9601d3dfba054e99a/gem-specs', 'CURSOR_SANDBOX_LANDLOCK_STATUS': 'bubblewrap', 'CMAKE_PREFIX_PATH': '/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[5.232578] (-) TimerEvent: {}
+[5.333088] (-) TimerEvent: {}
+[5.433592] (-) TimerEvent: {}
+[5.534117] (-) TimerEvent: {}
+[5.634643] (-) TimerEvent: {}
+[5.735142] (-) TimerEvent: {}
+[5.835655] (-) TimerEvent: {}
+[5.936156] (-) TimerEvent: {}
+[6.036663] (-) TimerEvent: {}
+[6.137168] (-) TimerEvent: {}
+[6.237672] (-) TimerEvent: {}
+[6.338154] (-) TimerEvent: {}
+[6.438641] (-) TimerEvent: {}
+[6.539128] (-) TimerEvent: {}
+[6.639615] (-) TimerEvent: {}
+[6.740103] (-) TimerEvent: {}
+[6.840608] (-) TimerEvent: {}
+[6.941127] (-) TimerEvent: {}
+[7.041620] (-) TimerEvent: {}
+[7.142176] (-) TimerEvent: {}
+[7.242738] (-) TimerEvent: {}
+[7.250541] (test_carcontrol) StdoutLine: {'line': b'running develop\n'}
+[7.342932] (-) TimerEvent: {}
+[7.443426] (-) TimerEvent: {}
+[7.543919] (-) TimerEvent: {}
+[7.644415] (-) TimerEvent: {}
+[7.744911] (-) TimerEvent: {}
+[7.845413] (-) TimerEvent: {}
+[7.945899] (-) TimerEvent: {}
+[8.046718] (-) TimerEvent: {}
+[8.147226] (-) TimerEvent: {}
+[8.247725] (-) TimerEvent: {}
+[8.348240] (-) TimerEvent: {}
+[8.448765] (-) TimerEvent: {}
+[8.549283] (-) TimerEvent: {}
+[8.641866] (test_carcontrol) StdoutLine: {'line': b'running egg_info\n'}
+[8.646280] (test_carcontrol) StdoutLine: {'line': b'writing test_carcontrol.egg-info/PKG-INFO\n'}
+[8.647127] (test_carcontrol) StdoutLine: {'line': b'writing dependency_links to test_carcontrol.egg-info/dependency_links.txt\n'}
+[8.648401] (test_carcontrol) StdoutLine: {'line': b'writing entry points to test_carcontrol.egg-info/entry_points.txt\n'}
+[8.649047] (test_carcontrol) StdoutLine: {'line': b'writing requirements to test_carcontrol.egg-info/requires.txt\n'}
+[8.649559] (-) TimerEvent: {}
+[8.649710] (test_carcontrol) StdoutLine: {'line': b'writing top-level names to test_carcontrol.egg-info/top_level.txt\n'}
+[8.663049] (test_carcontrol) StdoutLine: {'line': b"reading manifest file 'test_carcontrol.egg-info/SOURCES.txt'\n"}
+[8.670206] (test_carcontrol) StdoutLine: {'line': b"writing manifest file 'test_carcontrol.egg-info/SOURCES.txt'\n"}
+[8.680177] (test_carcontrol) StdoutLine: {'line': b'running build_ext\n'}
+[8.681554] (test_carcontrol) StdoutLine: {'line': b'Creating /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test-carcontrol.egg-link (link to .)\n'}
+[8.687636] (test_carcontrol) StdoutLine: {'line': b'Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.688901] (test_carcontrol) StdoutLine: {'line': b'Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.690399] (test_carcontrol) StdoutLine: {'line': b'Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.692085] (test_carcontrol) StdoutLine: {'line': b'Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.693855] (test_carcontrol) StdoutLine: {'line': b'Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.695636] (test_carcontrol) StdoutLine: {'line': b'Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.697122] (test_carcontrol) StdoutLine: {'line': b'Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.698716] (test_carcontrol) StdoutLine: {'line': b'Installing new_videologger_v2 script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.705875] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.706630] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.707204] (test_carcontrol) StdoutLine: {'line': b'Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.707706] (test_carcontrol) StdoutLine: {'line': b'Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.708206] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.708721] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.709248] (test_carcontrol) StdoutLine: {'line': b'Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.709815] (test_carcontrol) StdoutLine: {'line': b'Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.710450] (test_carcontrol) StdoutLine: {'line': b'Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.711098] (test_carcontrol) StdoutLine: {'line': b'Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.711711] (test_carcontrol) StdoutLine: {'line': b'Installing test_yolo_echo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.712303] (test_carcontrol) StdoutLine: {'line': b'\n'}
+[8.736706] (test_carcontrol) StdoutLine: {'line': b'Installed /userdata/code_test/build/test_carcontrol\n'}
+[8.737394] (test_carcontrol) StdoutLine: {'line': b'running symlink_data\n'}
+[8.749804] (-) TimerEvent: {}
+[8.850310] (-) TimerEvent: {}
+[8.950862] (-) TimerEvent: {}
+[8.972572] (test_carcontrol) CommandEnded: {'returncode': 0}
+[9.051409] (-) TimerEvent: {}
+[9.074266] (test_carcontrol) JobEnded: {'identifier': 'test_carcontrol', 'rc': 0}
+[9.077817] (-) EventReactorShutdown: {}

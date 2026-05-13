@@ -1,0 +1,22 @@
+--------------------| Log Start: new_yolo_d |--------------------
+Log start at 2026-05-08 16:43:01.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:43:01][  0.0001][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:43:01][  0.0023][Info]: Car Self Control Over.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:43:01][  0.0001][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:43:01][  0.0019][Info]: Car Self Control Over.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:43:01][  0.0001][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:43:01][  0.0019][Info]: Car Self Control Over.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:43:01][  0.0001][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:43:01][  0.0020][Info]: Car Self Control Over.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:43:01][  0.0001][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:43:01][  0.0019][Info]: Car Self Control Over.

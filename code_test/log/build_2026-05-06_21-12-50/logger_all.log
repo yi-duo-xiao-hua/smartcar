@@ -1,0 +1,187 @@
+[0.658s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'test_carcontrol', '--symlink-install']
+[0.658s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['test_carcontrol'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffbb919930>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbb9193f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbb9193f0>>)
+[1.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.864s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.865s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.866s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.866s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/userdata/code_test'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extensions ['ignore', 'ignore_ament_install']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extension 'ignore'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extension 'ignore_ament_install'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extensions ['colcon_pkg']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extension 'colcon_pkg'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extensions ['colcon_meta']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extension 'colcon_meta'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extensions ['ros']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_carcontrol) by extension 'ros'
+[1.967s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_carcontrol' with type 'ros.ament_python' and name 'test_carcontrol'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extension 'ignore'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extension 'ignore_ament_install'
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extensions ['colcon_pkg']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extension 'colcon_pkg'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extensions ['colcon_meta']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extension 'colcon_meta'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extensions ['ros']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_interface) by extension 'ros'
+[1.974s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_interface' with type 'ros.ament_cmake' and name 'test_interface'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extension 'colcon_meta'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extensions ['ros']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_node) by extension 'ros'
+[1.981s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_node' with type 'ros.ament_python' and name 'test_node'
+[1.981s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.181s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'test_interface' in 'src/test_interface'
+[2.181s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'test_node' in 'src/test_node'
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.197s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /userdata/dev_ws/install
+[2.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 49 installed packages in /opt/tros/humble
+[2.211s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 288 installed packages in /opt/ros/humble
+[2.223s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.538s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'cmake_args' from command line to 'None'
+[2.539s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'cmake_target' from command line to 'None'
+[2.539s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.539s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'cmake_clean_cache' from command line to 'False'
+[2.540s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'cmake_clean_first' from command line to 'False'
+[2.540s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'cmake_force_configure' from command line to 'False'
+[2.540s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'ament_cmake_args' from command line to 'None'
+[2.541s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'catkin_cmake_args' from command line to 'None'
+[2.541s] Level 5:colcon.colcon_core.verb:set package 'test_carcontrol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.541s] DEBUG:colcon.colcon_core.verb:Building package 'test_carcontrol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/code_test/build/test_carcontrol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/code_test/install/test_carcontrol', 'merge_install': False, 'path': '/userdata/code_test/src/test_carcontrol', 'symlink_install': True, 'test_result_base': None}
+[2.543s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.548s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.549s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/userdata/code_test/src/test_carcontrol' with build type 'ament_python'
+[2.550s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_carcontrol', 'ament_prefix_path')
+[2.563s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/hook/ament_prefix_path.ps1'
+[2.568s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/hook/ament_prefix_path.dsv'
+[2.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/hook/ament_prefix_path.sh'
+[2.578s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.578s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.463s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/userdata/code_test/src/test_carcontrol'
+[4.465s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.465s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.951s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index/packages/test_carcontrol
+[6.952s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/package.xml
+[6.952s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch/race_with_origincar.launch.py
+[6.952s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch/race_bringup.launch.py
+[6.952s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/sr.caffemodel
+[6.953s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/config_videologger.yaml
+[6.953s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/detect.prototxt
+[6.953s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/config_car_keyboard.yaml
+[6.953s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/config_yolo_plan.yaml
+[6.953s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/sr.prototxt
+[6.954s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/detect.caffemodel
+[6.954s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/config_image_compress.yaml
+[6.954s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/config_new_yolo_d.yaml
+[6.954s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config/config_new_resnet.yaml
+[6.955s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/car_keyboard
+[6.956s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/depth_image
+[6.956s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/image_com
+[6.956s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/new_carctrl
+[6.956s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/new_ctrlpub
+[6.956s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/new_resnet
+[6.957s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/new_videologger
+[6.957s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/new_yolo
+[6.957s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/new_yolo_d
+[6.957s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/qrcode_wechat
+[6.957s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/test_carcontrol
+[6.958s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/test_llm
+[6.958s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/test_llm_local
+[6.958s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/test_pidcontroller
+[6.958s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/test_qrcode
+[6.958s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/test_resnet
+[6.958s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /userdata/code_test/install/test_carcontrol/lib/test_carcontrol/test_yolo
+[6.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/code_test/build/test_carcontrol': AMENT_PREFIX_PATH=/userdata/code_test/install/test_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/code_test/install/test_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/userdata/code_test/install/test_interface/lib:/userdata/dev_ws/install/test_interface/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/code_test/build/test_carcontrol/build --no-deps symlink_data --force
+[10.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_carcontrol', 'pythonpath_develop')
+[10.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/code_test/build/test_carcontrol/share/test_carcontrol/hook/pythonpath_develop.ps1'
+[10.245s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/code_test/build/test_carcontrol' returned '0': AMENT_PREFIX_PATH=/userdata/code_test/install/test_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/code_test/install/test_interface:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/userdata/code_test/install/test_interface/lib:/userdata/dev_ws/install/test_interface/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/code_test/build/test_carcontrol/build --no-deps symlink_data --force
+[10.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/code_test/build/test_carcontrol/share/test_carcontrol/hook/pythonpath_develop.dsv'
+[10.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/code_test/build/test_carcontrol/share/test_carcontrol/hook/pythonpath_develop.sh'
+[10.267s] Level 1:colcon.colcon_core.environment:checking '/userdata/code_test/install/test_carcontrol' for CMake module files
+[10.271s] Level 1:colcon.colcon_core.environment:checking '/userdata/code_test/install/test_carcontrol' for CMake config files
+[10.276s] Level 1:colcon.colcon_core.environment:checking '/userdata/code_test/install/test_carcontrol/lib'
+[10.277s] Level 1:colcon.colcon_core.environment:checking '/userdata/code_test/install/test_carcontrol/bin'
+[10.277s] Level 1:colcon.colcon_core.environment:checking '/userdata/code_test/install/test_carcontrol/lib/pkgconfig/test_carcontrol.pc'
+[10.279s] Level 1:colcon.colcon_core.environment:checking '/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages'
+[10.279s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_carcontrol', 'pythonpath')
+[10.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/hook/pythonpath.ps1'
+[10.284s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/hook/pythonpath.dsv'
+[10.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/hook/pythonpath.sh'
+[10.290s] Level 1:colcon.colcon_core.environment:checking '/userdata/code_test/install/test_carcontrol/bin'
+[10.290s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_carcontrol)
+[10.293s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/package.ps1'
+[10.298s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/package.dsv'
+[10.303s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/package.sh'
+[10.310s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/package.bash'
+[10.315s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/code_test/install/test_carcontrol/share/test_carcontrol/package.zsh'
+[10.320s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/code_test/install/test_carcontrol/share/colcon-core/packages/test_carcontrol)
+[10.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[10.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[10.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[10.323s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[10.355s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[10.356s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[10.356s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[10.357s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[35.376s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NoReply: Did not receive a reply. Possible causes include: the remote application did not send a reply, the message bus security policy blocked the reply, the reply timeout expired, or the network connection was broken.
+[35.376s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[35.378s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/code_test/install/local_setup.ps1'
+[35.384s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/code_test/install/_local_setup_util_ps1.py'
+[35.394s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/code_test/install/setup.ps1'
+[35.403s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/code_test/install/local_setup.sh'
+[35.407s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/code_test/install/_local_setup_util_sh.py'
+[35.411s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/code_test/install/setup.sh'
+[35.420s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/code_test/install/local_setup.bash'
+[35.423s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/code_test/install/setup.bash'
+[35.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/code_test/install/local_setup.zsh'
+[35.436s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/code_test/install/setup.zsh'

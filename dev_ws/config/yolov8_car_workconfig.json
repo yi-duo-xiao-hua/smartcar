@@ -1,0 +1,13 @@
+{
+	"model_file": "/userdata/code_test/src/test_carcontrol/model/yolov8_car.bin",
+	"task_num": 4,
+	"dnn_Parser": "yolov8",
+	"model_output_count": 6,
+	"reg_max": 16,
+	"class_num": 3,
+	"cls_names_list": "/userdata/dev_ws/config/yolov8_car_classes.list",
+	"strides": [8, 16, 32],
+	"score_threshold": 0.25,
+	"nms_threshold": 0.7,
+	"nms_top_k": 300
+}

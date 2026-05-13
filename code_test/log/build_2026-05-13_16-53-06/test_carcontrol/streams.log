@@ -1,0 +1,35 @@
+[5.197s] Invoking command in '/userdata/code_test/build/test_carcontrol': LD_LIBRARY_PATH=/userdata/code_test/install/test_interface/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/code_test/build/test_carcontrol/build --no-deps symlink_data
+[7.248s] running develop
+[8.640s] running egg_info
+[8.644s] writing test_carcontrol.egg-info/PKG-INFO
+[8.645s] writing dependency_links to test_carcontrol.egg-info/dependency_links.txt
+[8.646s] writing entry points to test_carcontrol.egg-info/entry_points.txt
+[8.647s] writing requirements to test_carcontrol.egg-info/requires.txt
+[8.647s] writing top-level names to test_carcontrol.egg-info/top_level.txt
+[8.661s] reading manifest file 'test_carcontrol.egg-info/SOURCES.txt'
+[8.668s] writing manifest file 'test_carcontrol.egg-info/SOURCES.txt'
+[8.678s] running build_ext
+[8.679s] Creating /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test-carcontrol.egg-link (link to .)
+[8.686s] Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.687s] Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.689s] Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.691s] Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.693s] Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.694s] Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.695s] Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.702s] Installing new_videologger_v2 script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.704s] Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.704s] Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.705s] Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.705s] Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.706s] Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.706s] Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.707s] Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.707s] Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.708s] Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.709s] Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.709s] Installing test_yolo_echo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[8.734s] 
+[8.734s] Installed /userdata/code_test/build/test_carcontrol
+[8.735s] running symlink_data
+[8.971s] Invoked command in '/userdata/code_test/build/test_carcontrol' returned '0': LD_LIBRARY_PATH=/userdata/code_test/install/test_interface/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /userdata/code_test/build/test_carcontrol/build --no-deps symlink_data

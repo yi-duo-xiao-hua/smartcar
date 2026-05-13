@@ -1,0 +1,3 @@
+[console_scripts]
+pwd_node = test_node.test_node_pwd:main
+

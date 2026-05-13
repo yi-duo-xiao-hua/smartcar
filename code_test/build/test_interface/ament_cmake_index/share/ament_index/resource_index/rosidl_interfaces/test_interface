@@ -1,0 +1,8 @@
+msg/ObjPosition.idl
+msg/ObjPosition.msg
+msg/ObjectMsg.idl
+msg/ObjectMsg.msg
+msg/ResnetMsg.idl
+msg/ResnetMsg.msg
+msg/VideoLogMsg.idl
+msg/VideoLogMsg.msg

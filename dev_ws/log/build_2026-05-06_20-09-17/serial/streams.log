@@ -1,0 +1,44 @@
+[0.222s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/3rdparty/serial_ros2 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/serial
+[4.743s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.744s] -- Found ament_cmake_core: 1.3.10 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[4.745s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.747s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.758s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.758s] -- Configuring done
+[4.759s] -- Generating done
+[4.760s] -- Build files have been written to: /userdata/dev_ws/build/serial
+[4.798s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/3rdparty/serial_ros2 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/serial
+[4.801s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[5.004s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[5.133s] [100%] Built target serial
+[5.418s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[5.427s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/serial
+[5.480s] -- Install configuration: ""
+[5.482s] -- Execute custom install script
+[5.483s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/lib/libserial.a
+[5.485s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/library_path.sh
+[5.486s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[5.490s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/impl/unix.h
+[5.491s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/impl/win.h
+[5.492s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/serial.h
+[5.493s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/v8stdint.h
+[5.494s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[5.495s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[5.496s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[5.497s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[5.498s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/path.sh
+[5.499s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/path.dsv
+[5.500s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.bash
+[5.501s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.sh
+[5.502s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.zsh
+[5.503s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.dsv
+[5.504s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/package.dsv
+[5.556s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[5.557s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.558s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[5.559s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.559s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[5.560s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[5.561s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/package.xml
+[5.575s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/line_follower_pkg:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/serial

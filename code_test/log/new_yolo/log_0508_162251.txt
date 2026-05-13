@@ -1,0 +1,36 @@
+--------------------| Log Start: new_yolo_d |--------------------
+Log start at 2026-05-08 16:22:51.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:22:51][  0.0002][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:22:51][  0.0095][Info]: --------| Car Control |--------.
+[2026-05-08 16:22:51][  0.0098][Info]: Black line: x=108, y=254.
+[2026-05-08 16:22:51][  0.0099][Info]: First refer: refer=152.27272727272725.
+[2026-05-08 16:22:51][  0.0101][Info]: PID: Refer=152.27272727272725, Error=142.72727272727275.
+[2026-05-08 16:22:51][  0.0119][Info]: Car Self Control Over.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:22:51][  0.0003][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:22:51][  0.0083][Info]: --------| Car Control |--------.
+[2026-05-08 16:22:51][  0.0087][Info]: Black line: x=99, y=255.
+[2026-05-08 16:22:51][  0.0089][Info]: First refer: refer=99.
+[2026-05-08 16:22:51][  0.0090][Info]: PID: Refer=99, Error=196.
+[2026-05-08 16:22:51][  0.0109][Info]: Car Self Control Over.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:22:51][  0.0001][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:22:51][  0.0024][Info]: Car Self Control Over.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:22:52][  0.0064][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:22:52][  0.0158][Info]: Car Self Control Over.
+
+------------| SelfCtrl Start |------------
+[2026-05-08 16:22:52][  0.0002][Info]: Car Self Control to qrcode Start.
+[2026-05-08 16:22:52][  0.0521][Info]: --------| Car Control |--------.
+[2026-05-08 16:22:52][  0.0548][Info]: Black line: x=107, y=255.
+[2026-05-08 16:22:52][  0.0554][Info]: First refer: refer=152.22727272727272.
+[2026-05-08 16:22:52][  0.0560][Info]: PID: Refer=152.22727272727272, Error=142.77272727272728.
+[2026-05-08 16:22:52][  0.0581][Info]: Car Self Control Over.
+--------------------| Log End |--------------------
+Log end at 2026-05-08 16:31:33.

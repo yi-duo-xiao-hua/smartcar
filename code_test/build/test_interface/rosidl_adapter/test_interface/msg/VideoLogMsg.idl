@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from test_interface/msg/VideoLogMsg.msg
+// generated code does not contain a copyright notice
+
+#include "test_interface/msg/ObjectMsg.idl"
+
+module test_interface {
+  module msg {
+    struct VideoLogMsg {
+      boolean isturning;
+
+      float refer;
+
+      sequence<test_interface::msg::ObjectMsg> obj_list;
+
+      float linear;
+
+      float angular;
+    };
+  };
+};

@@ -1,0 +1,23 @@
+# 配置文件格式：
+# pid这样的表示前面的大类
+# pid下面的键值表示参数
+# 添加键值就可以添加参数，注意，冒号后面需要加一个空格，否则无法正常读取
+# 添加键值的缩进只能用空格，不能用tab
+pid: 
+ Kp: 1.8
+ Kd: 0.6
+ Target: 295
+ outputRatio: 1.5
+
+# 1:沿着线的左边走 0:沿着线中间走 -1:沿着线右边走
+car: 
+ speed: 0.7
+ angular: 200
+ qrcode_line_mode: -1
+ park_line_mode: 0
+
+# to_park:是否判断发现p点
+yolo: 
+ base_obs_area: 1000
+ base_qr_area: 200
+ to_park: true

@@ -1,0 +1,11 @@
+# 配置文件格式：
+# pid这样的表示前面的大类
+# pid下面的键值表示参数
+# 添加键值就可以添加参数，注意，冒号后面需要加一个空格，否则无法正常读取
+# 添加键值的缩进只能用空格，不能用tab
+grid: true
+car_front: true
+black_line: true
+objects: true
+text: true
+refer: true

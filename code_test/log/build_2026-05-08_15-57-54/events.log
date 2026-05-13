@@ -1,0 +1,128 @@
+[0.000000] (-) TimerEvent: {}
+[0.000418] (-) JobUnselected: {'identifier': 'test_interface'}
+[0.001026] (-) JobUnselected: {'identifier': 'test_node'}
+[0.002096] (test_carcontrol) JobQueued: {'identifier': 'test_carcontrol', 'dependencies': OrderedDict([('test_interface', '/userdata/code_test/install/test_interface')])}
+[0.002951] (test_carcontrol) JobStarted: {'identifier': 'test_carcontrol'}
+[0.098872] (-) TimerEvent: {}
+[0.199420] (-) TimerEvent: {}
+[0.299895] (-) TimerEvent: {}
+[0.400421] (-) TimerEvent: {}
+[0.500943] (-) TimerEvent: {}
+[0.601467] (-) TimerEvent: {}
+[0.701999] (-) TimerEvent: {}
+[0.802533] (-) TimerEvent: {}
+[0.903050] (-) TimerEvent: {}
+[1.003589] (-) TimerEvent: {}
+[1.104146] (-) TimerEvent: {}
+[1.204624] (-) TimerEvent: {}
+[1.305117] (-) TimerEvent: {}
+[1.405633] (-) TimerEvent: {}
+[1.506230] (-) TimerEvent: {}
+[1.606760] (-) TimerEvent: {}
+[1.707318] (-) TimerEvent: {}
+[1.807858] (-) TimerEvent: {}
+[1.908379] (-) TimerEvent: {}
+[2.008861] (-) TimerEvent: {}
+[2.110785] (-) TimerEvent: {}
+[2.211345] (-) TimerEvent: {}
+[2.312091] (-) TimerEvent: {}
+[2.412746] (-) TimerEvent: {}
+[2.513292] (-) TimerEvent: {}
+[2.613789] (-) TimerEvent: {}
+[2.714315] (-) TimerEvent: {}
+[2.815786] (-) TimerEvent: {}
+[2.916440] (-) TimerEvent: {}
+[3.016976] (-) TimerEvent: {}
+[3.117477] (-) TimerEvent: {}
+[3.218064] (-) TimerEvent: {}
+[3.318707] (-) TimerEvent: {}
+[3.419227] (-) TimerEvent: {}
+[3.519790] (-) TimerEvent: {}
+[3.620324] (-) TimerEvent: {}
+[3.720819] (-) TimerEvent: {}
+[3.821320] (-) TimerEvent: {}
+[3.921855] (-) TimerEvent: {}
+[4.022380] (-) TimerEvent: {}
+[4.122898] (-) TimerEvent: {}
+[4.223385] (-) TimerEvent: {}
+[4.323947] (-) TimerEvent: {}
+[4.424471] (-) TimerEvent: {}
+[4.525059] (-) TimerEvent: {}
+[4.626559] (-) TimerEvent: {}
+[4.727077] (-) TimerEvent: {}
+[4.827598] (-) TimerEvent: {}
+[4.928154] (-) TimerEvent: {}
+[5.028758] (-) TimerEvent: {}
+[5.116531] (test_carcontrol) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/userdata/code_test/build/test_carcontrol/build', '--no-deps', 'symlink_data'], 'cwd': '/userdata/code_test/build/test_carcontrol', 'env': {'npm_config_devdir': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/node-gyp', 'VSCODE_CWD': '/root', 'VSCODE_ESM_ENTRYPOINT': 'vs/workbench/api/node/extensionHostProcess', 'PUPPETEER_CACHE_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/puppeteer', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.210.2 53906 22', 'VSCODE_NLS_CONFIG': '{"userLocale":"en","osLocale":"en","resolvedLanguage":"en","defaultMessagesFile":"/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/out/nls.messages.json","locale":"en","availableLanguages":{}}', 'CARGO_TARGET_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/cargo-target', 'CCACHE_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/ccache', 'VSCODE_HANDLES_UNCAUGHT_ERRORS': 'true', 'XDG_SESSION_TYPE': 'tty', 'PIP_CACHE_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/pip', 'NUGET_PACKAGES': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/nuget', 'HOMEBREW_CACHE': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/homebrew', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/code_test/install/test_interface/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-59cd1ff1-965e-4903-bd7f-7ab38973eb96.sock', 'ROS_PYTHON_VERSION': '3', 'NO_COLOR': '1', 'CONDA_PKGS_DIRS': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/conda', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COMPOSER_HOME': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/composer', 'VSCODE_L10N_BUNDLE_LOCATION': '', 'COLCON_PREFIX_PATH': '/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'OVSX_REGISTRY_URL': 'https://open-vsx.org', 'LOGNAME': 'root', 'FORCE_COLOR': '0', 'VSCODE_HANDLES_SIGPIPE': 'true', 'BUN_INSTALL_CACHE_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/bun', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'CURSOR_LAYOUT': 'unifiedAgent', 'GOMODCACHE': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/go-mod', 'XDG_SESSION_CLASS': 'user', 'CP_HOME_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/cocoapods', 'TERM': 'dumb', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'POETRY_CACHE_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/poetry', 'PATH': '/usr/hobot/bin/:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/opt/ros/humble/bin:/usr/hobot/bin/:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'YARN_CACHE_FOLDER': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/yarn', 'VSCODE_AGENT_FOLDER': '/root/.cursor-server', 'UV_CACHE_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/uv', 'PLAYWRIGHT_BROWSERS_PATH': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/playwright', 'XDG_RUNTIME_DIR': '/run/user/0', 'BUNDLE_PATH': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/bundle', 'CURSOR_AGENT': '1', 'LANG': 'en_US.UTF-8', 'NX_CACHE_DIRECTORY': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/nx', 'LS_COLORS': '', 'CYPRESS_CACHE_FOLDER': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/cypress', 'PNPM_STORE_PATH': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/pnpm-store', 'AMENT_PREFIX_PATH': '/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_SERVER_SHUTDOWN_TIMEOUT': '300', 'GOCACHE': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/go-build', 'NPM_CONFIG_CACHE': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/npm', 'PWD': '/userdata/code_test/build/test_carcontrol', 'GRADLE_USER_HOME': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/gradle', 'SSH_CONNECTION': '192.168.210.2 53906 192.168.210.51 22', 'PYTHONPATH': '/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:/userdata/dev_ws/install/test_carcontrol/lib/python3.10/site-packages:/userdata/dev_ws/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'TURBO_CACHE_DIR': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/turbo', 'COLCON': '1', '_ZO_DOCTOR': '0', 'GEM_SPEC_CACHE': '/tmp/cursor-sandbox-cache/5aa31a45d77521af5e907de97c238c8e/gem-specs', 'CMAKE_PREFIX_PATH': '/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[5.128986] (-) TimerEvent: {}
+[5.229733] (-) TimerEvent: {}
+[5.330250] (-) TimerEvent: {}
+[5.431033] (-) TimerEvent: {}
+[5.531455] (-) TimerEvent: {}
+[5.631966] (-) TimerEvent: {}
+[5.732520] (-) TimerEvent: {}
+[5.833053] (-) TimerEvent: {}
+[5.934232] (-) TimerEvent: {}
+[6.034728] (-) TimerEvent: {}
+[6.135268] (-) TimerEvent: {}
+[6.235817] (-) TimerEvent: {}
+[6.336368] (-) TimerEvent: {}
+[6.436948] (-) TimerEvent: {}
+[6.537479] (-) TimerEvent: {}
+[6.638111] (-) TimerEvent: {}
+[6.738755] (-) TimerEvent: {}
+[6.839352] (-) TimerEvent: {}
+[6.939914] (-) TimerEvent: {}
+[7.040472] (-) TimerEvent: {}
+[7.137010] (test_carcontrol) StdoutLine: {'line': b'running develop\n'}
+[7.140615] (-) TimerEvent: {}
+[7.241101] (-) TimerEvent: {}
+[7.341637] (-) TimerEvent: {}
+[7.442208] (-) TimerEvent: {}
+[7.542807] (-) TimerEvent: {}
+[7.643298] (-) TimerEvent: {}
+[7.743824] (-) TimerEvent: {}
+[7.844319] (-) TimerEvent: {}
+[7.944840] (-) TimerEvent: {}
+[8.045357] (-) TimerEvent: {}
+[8.145868] (-) TimerEvent: {}
+[8.246452] (-) TimerEvent: {}
+[8.346957] (-) TimerEvent: {}
+[8.444796] (test_carcontrol) StdoutLine: {'line': b'running egg_info\n'}
+[8.446235] (test_carcontrol) StdoutLine: {'line': b'writing test_carcontrol.egg-info/PKG-INFO\n'}
+[8.447261] (-) TimerEvent: {}
+[8.447453] (test_carcontrol) StdoutLine: {'line': b'writing dependency_links to test_carcontrol.egg-info/dependency_links.txt\n'}
+[8.448903] (test_carcontrol) StdoutLine: {'line': b'writing entry points to test_carcontrol.egg-info/entry_points.txt\n'}
+[8.449902] (test_carcontrol) StdoutLine: {'line': b'writing requirements to test_carcontrol.egg-info/requires.txt\n'}
+[8.450789] (test_carcontrol) StdoutLine: {'line': b'writing top-level names to test_carcontrol.egg-info/top_level.txt\n'}
+[8.462395] (test_carcontrol) StdoutLine: {'line': b"reading manifest file 'test_carcontrol.egg-info/SOURCES.txt'\n"}
+[8.470712] (test_carcontrol) StdoutLine: {'line': b"writing manifest file 'test_carcontrol.egg-info/SOURCES.txt'\n"}
+[8.481731] (test_carcontrol) StdoutLine: {'line': b'running build_ext\n'}
+[8.483059] (test_carcontrol) StdoutLine: {'line': b'Creating /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test-carcontrol.egg-link (link to .)\n'}
+[8.488908] (test_carcontrol) StdoutLine: {'line': b'Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.490058] (test_carcontrol) StdoutLine: {'line': b'Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.491003] (test_carcontrol) StdoutLine: {'line': b'Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.492172] (test_carcontrol) StdoutLine: {'line': b'Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.493331] (test_carcontrol) StdoutLine: {'line': b'Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.494202] (test_carcontrol) StdoutLine: {'line': b'Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.495288] (test_carcontrol) StdoutLine: {'line': b'Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.496175] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.497391] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.498253] (test_carcontrol) StdoutLine: {'line': b'Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.499371] (test_carcontrol) StdoutLine: {'line': b'Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.500217] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.501393] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.502014] (test_carcontrol) StdoutLine: {'line': b'Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.502571] (test_carcontrol) StdoutLine: {'line': b'Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.503099] (test_carcontrol) StdoutLine: {'line': b'Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.503620] (test_carcontrol) StdoutLine: {'line': b'Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[8.504177] (test_carcontrol) StdoutLine: {'line': b'\n'}
+[8.504684] (test_carcontrol) StdoutLine: {'line': b'Installed /userdata/code_test/build/test_carcontrol\n'}
+[8.505191] (test_carcontrol) StdoutLine: {'line': b'running symlink_data\n'}
+[8.547528] (-) TimerEvent: {}
+[8.648117] (-) TimerEvent: {}
+[8.748611] (-) TimerEvent: {}
+[8.776406] (test_carcontrol) CommandEnded: {'returncode': 0}
+[8.849554] (-) TimerEvent: {}
+[8.902674] (test_carcontrol) JobEnded: {'identifier': 'test_carcontrol', 'rc': 0}
+[8.905945] (-) EventReactorShutdown: {}

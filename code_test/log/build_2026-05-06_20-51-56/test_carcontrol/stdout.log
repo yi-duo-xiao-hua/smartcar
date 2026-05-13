@@ -1,0 +1,125 @@
+running egg_info
+creating ../../build/test_carcontrol/test_carcontrol.egg-info
+writing ../../build/test_carcontrol/test_carcontrol.egg-info/PKG-INFO
+writing dependency_links to ../../build/test_carcontrol/test_carcontrol.egg-info/dependency_links.txt
+writing entry points to ../../build/test_carcontrol/test_carcontrol.egg-info/entry_points.txt
+writing requirements to ../../build/test_carcontrol/test_carcontrol.egg-info/requires.txt
+writing top-level names to ../../build/test_carcontrol/test_carcontrol.egg-info/top_level.txt
+writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+reading manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /userdata/code_test/build/test_carcontrol/build
+creating /userdata/code_test/build/test_carcontrol/build/lib
+creating /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/new_yolo_d.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/depth_yolo2.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/test_resnet.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/test_carcontrol.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/depth_logger.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/new_ctrlpub.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/new_pidctrl.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/test_qrcode.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/new_resnet.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/new_videologger.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/test_car_pid.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/test_llm.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/depth_image.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/car_keyboard.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/test_llm_local.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/qrcode_wechat.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/__init__.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/image_comp.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/code_test_paths.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/depth_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/new_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+copying test_carcontrol/test_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol
+running install
+running install_lib
+creating /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_yolo_d.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_yolo2.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_resnet.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_carcontrol.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_logger.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_ctrlpub.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_pidctrl.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_qrcode.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_resnet.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_videologger.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_car_pid.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_llm.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_image.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/car_keyboard.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_llm_local.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/qrcode_wechat.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/__init__.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/image_comp.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/code_test_paths.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_yolo_d.py to new_yolo_d.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_yolo2.py to depth_yolo2.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_resnet.py to test_resnet.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_carcontrol.py to test_carcontrol.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_logger.py to depth_logger.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_ctrlpub.py to new_ctrlpub.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_pidctrl.py to new_pidctrl.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_qrcode.py to test_qrcode.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_resnet.py to new_resnet.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_videologger.py to new_videologger.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_car_pid.py to test_car_pid.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_llm.py to test_llm.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_image.py to depth_image.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/car_keyboard.py to car_keyboard.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_llm_local.py to test_llm_local.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/qrcode_wechat.py to qrcode_wechat.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/__init__.py to __init__.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/image_comp.py to image_comp.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/code_test_paths.py to code_test_paths.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_yolo.py to depth_yolo.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_yolo.py to new_yolo.cpython-310.pyc
+byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_yolo.py to test_yolo.cpython-310.pyc
+running install_data
+creating /userdata/code_test/install/test_carcontrol/share/ament_index
+creating /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index
+creating /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index/packages
+copying resource/test_carcontrol -> /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index/packages
+copying package.xml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol
+creating /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch
+copying launch/race_with_origincar.launch.py -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch
+copying launch/race_bringup.launch.py -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch
+creating /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/sr.caffemodel -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/config_videologger.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/detect.prototxt -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/config_car_keyboard.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/config_yolo_plan.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/sr.prototxt -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/detect.caffemodel -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/config_image_compress.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/config_new_yolo_d.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+copying config/config_new_resnet.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config
+running install_egg_info
+Copying ../../build/test_carcontrol/test_carcontrol.egg-info to /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info
+running install_scripts
+Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+writing list of installed files to '/userdata/code_test/build/test_carcontrol/install.log'

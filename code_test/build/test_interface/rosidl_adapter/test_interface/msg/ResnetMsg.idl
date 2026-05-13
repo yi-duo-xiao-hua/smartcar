@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from test_interface/msg/ResnetMsg.msg
+// generated code does not contain a copyright notice
+
+
+module test_interface {
+  module msg {
+    struct ResnetMsg {
+      int32 line_x;
+
+      int32 line_y;
+    };
+  };
+};

@@ -1,0 +1,824 @@
+[0.000000] (-) TimerEvent: {}
+[0.000736] (test_interface) JobQueued: {'identifier': 'test_interface', 'dependencies': OrderedDict()}
+[0.001943] (test_node) JobQueued: {'identifier': 'test_node', 'dependencies': OrderedDict()}
+[0.002689] (test_carcontrol) JobQueued: {'identifier': 'test_carcontrol', 'dependencies': OrderedDict([('test_interface', '/userdata/code_test/install/test_interface')])}
+[0.003410] (test_interface) JobStarted: {'identifier': 'test_interface'}
+[0.034596] (test_node) JobStarted: {'identifier': 'test_node'}
+[0.098581] (-) TimerEvent: {}
+[0.115958] (test_interface) JobProgress: {'identifier': 'test_interface', 'progress': 'cmake'}
+[0.118635] (test_interface) Command: {'cmd': ['/usr/bin/cmake', '/userdata/code_test/src/test_interface', '-DCMAKE_INSTALL_PREFIX=/userdata/code_test/install/test_interface'], 'cwd': '/userdata/code_test/build/test_interface', 'env': OrderedDict([('USER', 'root'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/userdata/code_test'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/bin:/bin:/usr/local/sbin:/usr/local/bin:/sbin:/usr/sbin'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('PWD', '/userdata/code_test/build/test_interface'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.198802] (-) TimerEvent: {}
+[0.299265] (-) TimerEvent: {}
+[0.399706] (-) TimerEvent: {}
+[0.500135] (-) TimerEvent: {}
+[0.600573] (-) TimerEvent: {}
+[0.701002] (-) TimerEvent: {}
+[0.801422] (-) TimerEvent: {}
+[0.901878] (-) TimerEvent: {}
+[1.002335] (-) TimerEvent: {}
+[1.102782] (-) TimerEvent: {}
+[1.203217] (-) TimerEvent: {}
+[1.303651] (-) TimerEvent: {}
+[1.404099] (-) TimerEvent: {}
+[1.504545] (-) TimerEvent: {}
+[1.604975] (-) TimerEvent: {}
+[1.705419] (-) TimerEvent: {}
+[1.805902] (-) TimerEvent: {}
+[1.906436] (-) TimerEvent: {}
+[1.924946] (test_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[1.927332] (test_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.929565] (test_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.930469] (test_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.931806] (test_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.933637] (test_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.934347] (test_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.936599] (test_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.937248] (test_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.938426] (test_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.940795] (test_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.943205] (test_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.944445] (test_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.006632] (-) TimerEvent: {}
+[2.107081] (-) TimerEvent: {}
+[2.207571] (-) TimerEvent: {}
+[2.308030] (-) TimerEvent: {}
+[2.408478] (-) TimerEvent: {}
+[2.508944] (-) TimerEvent: {}
+[2.531945] (test_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.609121] (-) TimerEvent: {}
+[2.709579] (-) TimerEvent: {}
+[2.810015] (-) TimerEvent: {}
+[2.910507] (-) TimerEvent: {}
+[3.010965] (-) TimerEvent: {}
+[3.051986] (test_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.066478] (test_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.098914] (test_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.111094] (-) TimerEvent: {}
+[3.211512] (-) TimerEvent: {}
+[3.302109] (test_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.311651] (-) TimerEvent: {}
+[3.412066] (-) TimerEvent: {}
+[3.512496] (-) TimerEvent: {}
+[3.612969] (-) TimerEvent: {}
+[3.713454] (-) TimerEvent: {}
+[3.813906] (-) TimerEvent: {}
+[3.914357] (-) TimerEvent: {}
+[4.014819] (-) TimerEvent: {}
+[4.115293] (-) TimerEvent: {}
+[4.215734] (-) TimerEvent: {}
+[4.266190] (test_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_node', 'build', '--build-base', '/userdata/code_test/build/test_node/build', 'install', '--record', '/userdata/code_test/build/test_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/code_test/src/test_node', 'env': {'USER': 'root', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/userdata/code_test', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'TROS_DISTRO': 'humble', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/bin:/bin:/usr/local/sbin:/usr/local/bin:/sbin:/usr/sbin', 'AMENT_PREFIX_PATH': '/opt/tros/humble:/opt/ros/humble', 'PWD': '/userdata/code_test/build/test_node', 'PYTHONPATH': '/userdata/code_test/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_node/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[4.315930] (-) TimerEvent: {}
+[4.416369] (-) TimerEvent: {}
+[4.516808] (-) TimerEvent: {}
+[4.617262] (-) TimerEvent: {}
+[4.717759] (-) TimerEvent: {}
+[4.818196] (-) TimerEvent: {}
+[4.918642] (-) TimerEvent: {}
+[5.019075] (-) TimerEvent: {}
+[5.082985] (test_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.119265] (-) TimerEvent: {}
+[5.219697] (-) TimerEvent: {}
+[5.320125] (-) TimerEvent: {}
+[5.420554] (-) TimerEvent: {}
+[5.520972] (-) TimerEvent: {}
+[5.621410] (-) TimerEvent: {}
+[5.721842] (-) TimerEvent: {}
+[5.822274] (-) TimerEvent: {}
+[5.903430] (test_node) StdoutLine: {'line': b'running egg_info\n'}
+[5.906991] (test_node) StdoutLine: {'line': b'creating ../../build/test_node/test_node.egg-info\n'}
+[5.908220] (test_node) StdoutLine: {'line': b'writing ../../build/test_node/test_node.egg-info/PKG-INFO\n'}
+[5.909602] (test_node) StdoutLine: {'line': b'writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt\n'}
+[5.910599] (test_node) StdoutLine: {'line': b'writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt\n'}
+[5.911812] (test_node) StdoutLine: {'line': b'writing requirements to ../../build/test_node/test_node.egg-info/requires.txt\n'}
+[5.912661] (test_node) StdoutLine: {'line': b'writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt\n'}
+[5.913153] (test_node) StdoutLine: {'line': b"writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'\n"}
+[5.922423] (-) TimerEvent: {}
+[5.923072] (test_node) StdoutLine: {'line': b"reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'\n"}
+[5.927029] (test_node) StdoutLine: {'line': b"writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'\n"}
+[5.928211] (test_node) StdoutLine: {'line': b'running build\n'}
+[5.930069] (test_node) StdoutLine: {'line': b'running build_py\n'}
+[5.930601] (test_node) StdoutLine: {'line': b'creating /userdata/code_test/build/test_node/build\n'}
+[5.931408] (test_node) StdoutLine: {'line': b'creating /userdata/code_test/build/test_node/build/lib\n'}
+[5.931860] (test_node) StdoutLine: {'line': b'creating /userdata/code_test/build/test_node/build/lib/test_node\n'}
+[5.932295] (test_node) StdoutLine: {'line': b'copying test_node/test_node_pwd.py -> /userdata/code_test/build/test_node/build/lib/test_node\n'}
+[5.933077] (test_node) StdoutLine: {'line': b'copying test_node/__init__.py -> /userdata/code_test/build/test_node/build/lib/test_node\n'}
+[5.933502] (test_node) StdoutLine: {'line': b'running install\n'}
+[5.933916] (test_node) StdoutLine: {'line': b'running install_lib\n'}
+[5.936872] (test_node) StdoutLine: {'line': b'creating /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node\n'}
+[5.938211] (test_node) StdoutLine: {'line': b'copying /userdata/code_test/build/test_node/build/lib/test_node/test_node_pwd.py -> /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node\n'}
+[5.938725] (test_node) StdoutLine: {'line': b'copying /userdata/code_test/build/test_node/build/lib/test_node/__init__.py -> /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node\n'}
+[5.940990] (test_node) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node/test_node_pwd.py to test_node_pwd.cpython-310.pyc\n'}
+[5.942759] (test_node) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node/__init__.py to __init__.cpython-310.pyc\n'}
+[5.943656] (test_node) StdoutLine: {'line': b'running install_data\n'}
+[5.945108] (test_node) StdoutLine: {'line': b'creating /userdata/code_test/install/test_node/share/ament_index\n'}
+[5.946165] (test_node) StdoutLine: {'line': b'creating /userdata/code_test/install/test_node/share/ament_index/resource_index\n'}
+[5.946704] (test_node) StdoutLine: {'line': b'creating /userdata/code_test/install/test_node/share/ament_index/resource_index/packages\n'}
+[5.947237] (test_node) StdoutLine: {'line': b'copying resource/test_node -> /userdata/code_test/install/test_node/share/ament_index/resource_index/packages\n'}
+[5.947895] (test_node) StdoutLine: {'line': b'copying package.xml -> /userdata/code_test/install/test_node/share/test_node\n'}
+[5.948482] (test_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.957796] (test_node) StdoutLine: {'line': b'Copying ../../build/test_node/test_node.egg-info to /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info\n'}
+[5.963102] (test_node) StdoutLine: {'line': b'running install_scripts\n'}
+[6.022618] (-) TimerEvent: {}
+[6.087579] (test_node) StdoutLine: {'line': b'Installing pwd_node script to /userdata/code_test/install/test_node/lib/test_node\n'}
+[6.089314] (test_node) StdoutLine: {'line': b"writing list of installed files to '/userdata/code_test/build/test_node/install.log'\n"}
+[6.122776] (-) TimerEvent: {}
+[6.170070] (test_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.222992] (-) TimerEvent: {}
+[6.299716] (test_node) CommandEnded: {'returncode': 0}
+[6.323223] (-) TimerEvent: {}
+[6.363034] (test_node) JobEnded: {'identifier': 'test_node', 'rc': 0}
+[6.423422] (-) TimerEvent: {}
+[6.523913] (-) TimerEvent: {}
+[6.624392] (-) TimerEvent: {}
+[6.724854] (-) TimerEvent: {}
+[6.825345] (-) TimerEvent: {}
+[6.925826] (-) TimerEvent: {}
+[7.026293] (-) TimerEvent: {}
+[7.126833] (-) TimerEvent: {}
+[7.227343] (-) TimerEvent: {}
+[7.327822] (-) TimerEvent: {}
+[7.428247] (-) TimerEvent: {}
+[7.528677] (-) TimerEvent: {}
+[7.593837] (test_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.628865] (-) TimerEvent: {}
+[7.729586] (test_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[7.730424] (-) TimerEvent: {}
+[7.736876] (test_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[7.830616] (-) TimerEvent: {}
+[7.895545] (test_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[7.896825] (test_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.897500] (test_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[7.898112] (test_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[7.930791] (-) TimerEvent: {}
+[8.023828] (test_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[8.030991] (-) TimerEvent: {}
+[8.131507] (-) TimerEvent: {}
+[8.223399] (test_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.231643] (-) TimerEvent: {}
+[8.312118] (test_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.318113] (test_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.330886] (test_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.331735] (-) TimerEvent: {}
+[8.432059] (-) TimerEvent: {}
+[8.496984] (test_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[8.532243] (-) TimerEvent: {}
+[8.554705] (test_interface) StdoutLine: {'line': b'-- Build files have been written to: /userdata/code_test/build/test_interface\n'}
+[8.588053] (test_interface) CommandEnded: {'returncode': 0}
+[8.590513] (test_interface) JobProgress: {'identifier': 'test_interface', 'progress': 'build'}
+[8.595289] (test_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/code_test/build/test_interface', '--', '-j8', '-l8'], 'cwd': '/userdata/code_test/build/test_interface', 'env': OrderedDict([('USER', 'root'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/userdata/code_test'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/bin:/bin:/usr/local/sbin:/usr/local/bin:/sbin:/usr/sbin'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('PWD', '/userdata/code_test/build/test_interface'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[8.632425] (-) TimerEvent: {}
+[8.732866] (-) TimerEvent: {}
+[8.769227] (test_interface) StdoutLine: {'line': b'[  1%] Generating C code for ROS interfaces\n'}
+[8.809077] (test_interface) StdoutLine: {'line': b'[  3%] Generating C++ code for ROS interfaces\n'}
+[8.833088] (-) TimerEvent: {}
+[8.843000] (test_interface) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_test_interface\n'}
+[8.933284] (-) TimerEvent: {}
+[9.033774] (-) TimerEvent: {}
+[9.134221] (-) TimerEvent: {}
+[9.234672] (-) TimerEvent: {}
+[9.335111] (-) TimerEvent: {}
+[9.435540] (-) TimerEvent: {}
+[9.535968] (-) TimerEvent: {}
+[9.636435] (-) TimerEvent: {}
+[9.736858] (-) TimerEvent: {}
+[9.837280] (-) TimerEvent: {}
+[9.937741] (-) TimerEvent: {}
+[10.038170] (-) TimerEvent: {}
+[10.152841] (-) TimerEvent: {}
+[10.253274] (-) TimerEvent: {}
+[10.353720] (-) TimerEvent: {}
+[10.453842] (test_interface) StdoutLine: {'line': b'running egg_info\n'}
+[10.454544] (-) TimerEvent: {}
+[10.457222] (test_interface) StdoutLine: {'line': b'creating test_interface.egg-info\n'}
+[10.458401] (test_interface) StdoutLine: {'line': b'writing test_interface.egg-info/PKG-INFO\n'}
+[10.459408] (test_interface) StdoutLine: {'line': b'writing dependency_links to test_interface.egg-info/dependency_links.txt\n'}
+[10.460386] (test_interface) StdoutLine: {'line': b'writing top-level names to test_interface.egg-info/top_level.txt\n'}
+[10.461680] (test_interface) StdoutLine: {'line': b"writing manifest file 'test_interface.egg-info/SOURCES.txt'\n"}
+[10.473702] (test_interface) StdoutLine: {'line': b"reading manifest file 'test_interface.egg-info/SOURCES.txt'\n"}
+[10.476613] (test_interface) StdoutLine: {'line': b"writing manifest file 'test_interface.egg-info/SOURCES.txt'\n"}
+[10.554784] (-) TimerEvent: {}
+[10.655241] (-) TimerEvent: {}
+[10.683724] (test_interface) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_test_interface_egg\n'}
+[10.755411] (-) TimerEvent: {}
+[10.855840] (-) TimerEvent: {}
+[10.956270] (-) TimerEvent: {}
+[11.056711] (-) TimerEvent: {}
+[11.157140] (-) TimerEvent: {}
+[11.257602] (-) TimerEvent: {}
+[11.358084] (-) TimerEvent: {}
+[11.458581] (-) TimerEvent: {}
+[11.506248] (test_interface) StdoutLine: {'line': b'[  3%] Built target test_interface__cpp\n'}
+[11.548731] (test_interface) StdoutLine: {'line': b'[  7%] Generating C++ type support for eProsima Fast-RTPS\n'}
+[11.549768] (test_interface) StdoutLine: {'line': b'[  7%] Generating C++ type support dispatch for ROS interfaces\n'}
+[11.553189] (test_interface) StdoutLine: {'line': b'[  9%] Generating C++ introspection for ROS interfaces\n'}
+[11.558843] (-) TimerEvent: {}
+[11.664730] (-) TimerEvent: {}
+[11.757098] (test_interface) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/test_interface__rosidl_generator_c.dir/rosidl_generator_c/test_interface/msg/detail/object_msg__functions.c.o\n'}
+[11.758382] (test_interface) StdoutLine: {'line': b'[ 14%] Building C object CMakeFiles/test_interface__rosidl_generator_c.dir/rosidl_generator_c/test_interface/msg/detail/resnet_msg__functions.c.o\n'}
+[11.759080] (test_interface) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/test_interface__rosidl_generator_c.dir/rosidl_generator_c/test_interface/msg/detail/video_log_msg__functions.c.o\n'}
+[11.759716] (test_interface) StdoutLine: {'line': b'[ 16%] Building C object CMakeFiles/test_interface__rosidl_generator_c.dir/rosidl_generator_c/test_interface/msg/detail/obj_position__functions.c.o\n'}
+[11.764931] (-) TimerEvent: {}
+[11.866651] (-) TimerEvent: {}
+[11.967159] (-) TimerEvent: {}
+[12.054979] (test_interface) StdoutLine: {'line': b'[ 18%] Linking C shared library libtest_interface__rosidl_generator_c.so\n'}
+[12.067361] (-) TimerEvent: {}
+[12.167858] (-) TimerEvent: {}
+[12.244359] (test_interface) StdoutLine: {'line': b'[ 18%] Built target test_interface__rosidl_generator_c\n'}
+[12.268059] (-) TimerEvent: {}
+[12.285711] (test_interface) StdoutLine: {'line': b'[ 21%] Generating C type support for eProsima Fast-RTPS\n'}
+[12.286607] (test_interface) StdoutLine: {'line': b'[ 21%] Generating C introspection for ROS interfaces\n'}
+[12.287260] (test_interface) StdoutLine: {'line': b'[ 23%] Generating C type support dispatch for ROS interfaces\n'}
+[12.368271] (-) TimerEvent: {}
+[12.468776] (-) TimerEvent: {}
+[12.569237] (-) TimerEvent: {}
+[12.669715] (-) TimerEvent: {}
+[12.770174] (-) TimerEvent: {}
+[12.870631] (-) TimerEvent: {}
+[12.971089] (-) TimerEvent: {}
+[13.071559] (-) TimerEvent: {}
+[13.172033] (-) TimerEvent: {}
+[13.272483] (-) TimerEvent: {}
+[13.372967] (-) TimerEvent: {}
+[13.474115] (-) TimerEvent: {}
+[13.574587] (-) TimerEvent: {}
+[13.653307] (test_interface) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interface/msg/video_log_msg__type_support.cpp.o\n'}
+[13.660584] (test_interface) StdoutLine: {'line': b'[ 27%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interface/msg/obj_position__type_support.cpp.o\n'}
+[13.674783] (-) TimerEvent: {}
+[13.687311] (test_interface) StdoutLine: {'line': b'[ 29%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interface/msg/resnet_msg__type_support.cpp.o\n'}
+[13.775032] (-) TimerEvent: {}
+[13.875546] (-) TimerEvent: {}
+[13.976018] (-) TimerEvent: {}
+[14.076505] (-) TimerEvent: {}
+[14.177041] (-) TimerEvent: {}
+[14.277692] (-) TimerEvent: {}
+[14.373705] (test_interface) StdoutLine: {'line': b'[ 30%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interface/msg/detail/obj_position__type_support.cpp.o\n'}
+[14.377924] (-) TimerEvent: {}
+[14.478450] (-) TimerEvent: {}
+[14.492605] (test_interface) StdoutLine: {'line': b'[ 32%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/obj_position__type_support.cpp.o\n'}
+[14.578692] (-) TimerEvent: {}
+[14.606574] (test_interface) StdoutLine: {'line': b'[ 34%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interface/msg/obj_position__type_support.cpp.o\n'}
+[14.678953] (-) TimerEvent: {}
+[14.779516] (-) TimerEvent: {}
+[14.858185] (test_interface) StdoutLine: {'line': b'[ 36%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interface/msg/resnet_msg__type_support.cpp.o\n'}
+[14.879802] (-) TimerEvent: {}
+[14.980409] (-) TimerEvent: {}
+[15.012629] (test_interface) StdoutLine: {'line': b'[ 38%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interface/msg/detail/obj_position__type_support.c.o\n'}
+[15.027371] (test_interface) StdoutLine: {'line': b'[ 40%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interface/msg/video_log_msg__type_support.cpp.o\n'}
+[15.080684] (-) TimerEvent: {}
+[15.181289] (-) TimerEvent: {}
+[15.225582] (test_interface) StdoutLine: {'line': b'[ 41%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interface/msg/detail/resnet_msg__type_support.c.o\n'}
+[15.244499] (test_interface) StdoutLine: {'line': b'[ 43%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interface/msg/detail/obj_position__type_support_c.cpp.o\n'}
+[15.265436] (test_interface) StdoutLine: {'line': b'[ 45%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/test_interface/msg/object_msg__type_support.cpp.o\n'}
+[15.281590] (-) TimerEvent: {}
+[15.382164] (-) TimerEvent: {}
+[15.438204] (test_interface) StdoutLine: {'line': b'[ 47%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interface/msg/detail/video_log_msg__type_support.c.o\n'}
+[15.482435] (-) TimerEvent: {}
+[15.483696] (test_interface) StdoutLine: {'line': b'[ 49%] Linking CXX shared library libtest_interface__rosidl_typesupport_c.so\n'}
+[15.582694] (-) TimerEvent: {}
+[15.642240] (test_interface) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interface/msg/detail/resnet_msg__type_support_c.cpp.o\n'}
+[15.645581] (test_interface) StdoutLine: {'line': b'[ 52%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/test_interface/msg/detail/object_msg__type_support.c.o\n'}
+[15.667179] (test_interface) StdoutLine: {'line': b'[ 54%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/test_interface/msg/object_msg__type_support.cpp.o\n'}
+[15.682928] (-) TimerEvent: {}
+[15.693573] (test_interface) StdoutLine: {'line': b'[ 54%] Built target test_interface__rosidl_typesupport_c\n'}
+[15.718502] (test_interface) StdoutLine: {'line': b'[ 56%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interface/msg/detail/video_log_msg__type_support_c.cpp.o\n'}
+[15.747802] (test_interface) StdoutLine: {'line': b'[ 58%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interface/msg/detail/resnet_msg__type_support.cpp.o\n'}
+[15.783207] (-) TimerEvent: {}
+[15.864049] (test_interface) StdoutLine: {'line': b'[ 60%] Linking C shared library libtest_interface__rosidl_typesupport_introspection_c.so\n'}
+[15.883474] (-) TimerEvent: {}
+[15.984050] (-) TimerEvent: {}
+[16.084581] (-) TimerEvent: {}
+[16.107772] (test_interface) StdoutLine: {'line': b'[ 60%] Built target test_interface__rosidl_typesupport_introspection_c\n'}
+[16.176601] (test_interface) StdoutLine: {'line': b'[ 61%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interface/msg/detail/video_log_msg__type_support.cpp.o\n'}
+[16.184877] (-) TimerEvent: {}
+[16.285450] (-) TimerEvent: {}
+[16.386016] (-) TimerEvent: {}
+[16.486594] (-) TimerEvent: {}
+[16.587173] (-) TimerEvent: {}
+[16.687784] (-) TimerEvent: {}
+[16.788329] (-) TimerEvent: {}
+[16.888898] (-) TimerEvent: {}
+[16.989436] (-) TimerEvent: {}
+[17.090027] (-) TimerEvent: {}
+[17.190650] (-) TimerEvent: {}
+[17.291241] (-) TimerEvent: {}
+[17.293413] (test_interface) StdoutLine: {'line': b'[ 63%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/test_interface/msg/detail/object_msg__type_support_c.cpp.o\n'}
+[17.378670] (test_interface) StdoutLine: {'line': b'[ 65%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/resnet_msg__type_support.cpp.o\n'}
+[17.391491] (-) TimerEvent: {}
+[17.442523] (test_interface) StdoutLine: {'line': b'[ 67%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/test_interface/msg/detail/object_msg__type_support.cpp.o\n'}
+[17.491758] (-) TimerEvent: {}
+[17.495462] (test_interface) StdoutLine: {'line': b'[ 69%] Linking CXX shared library libtest_interface__rosidl_typesupport_cpp.so\n'}
+[17.592004] (-) TimerEvent: {}
+[17.694287] (-) TimerEvent: {}
+[17.764087] (test_interface) StdoutLine: {'line': b'[ 69%] Built target test_interface__rosidl_typesupport_cpp\n'}
+[17.794551] (-) TimerEvent: {}
+[17.822318] (test_interface) StdoutLine: {'line': b'[ 70%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/object_msg__type_support.cpp.o\n'}
+[17.825156] (test_interface) StdoutLine: {'line': b'[ 72%] Building CXX object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/test_interface/msg/detail/dds_fastrtps/video_log_msg__type_support.cpp.o\n'}
+[17.894807] (-) TimerEvent: {}
+[17.995350] (-) TimerEvent: {}
+[18.095911] (-) TimerEvent: {}
+[18.196456] (-) TimerEvent: {}
+[18.297041] (-) TimerEvent: {}
+[18.397639] (-) TimerEvent: {}
+[18.498182] (-) TimerEvent: {}
+[18.598688] (-) TimerEvent: {}
+[18.699411] (-) TimerEvent: {}
+[18.799967] (-) TimerEvent: {}
+[18.900515] (-) TimerEvent: {}
+[19.001073] (-) TimerEvent: {}
+[19.101632] (-) TimerEvent: {}
+[19.202164] (-) TimerEvent: {}
+[19.302682] (-) TimerEvent: {}
+[19.403215] (-) TimerEvent: {}
+[19.503740] (-) TimerEvent: {}
+[19.598136] (test_interface) StdoutLine: {'line': b'[ 74%] Linking CXX shared library libtest_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[19.603922] (-) TimerEvent: {}
+[19.704447] (-) TimerEvent: {}
+[19.812984] (-) TimerEvent: {}
+[19.909226] (test_interface) StdoutLine: {'line': b'[ 76%] Linking CXX shared library libtest_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[19.913189] (-) TimerEvent: {}
+[20.013700] (-) TimerEvent: {}
+[20.064890] (test_interface) StdoutLine: {'line': b'[ 76%] Built target test_interface__rosidl_typesupport_fastrtps_c\n'}
+[20.113937] (-) TimerEvent: {}
+[20.214459] (-) TimerEvent: {}
+[20.314959] (-) TimerEvent: {}
+[20.360154] (test_interface) StdoutLine: {'line': b'[ 76%] Built target test_interface__rosidl_typesupport_introspection_cpp\n'}
+[20.415164] (-) TimerEvent: {}
+[20.515625] (-) TimerEvent: {}
+[20.592536] (test_interface) StdoutLine: {'line': b'[ 78%] Linking CXX shared library libtest_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[20.615824] (-) TimerEvent: {}
+[20.716311] (-) TimerEvent: {}
+[20.816791] (-) TimerEvent: {}
+[20.917247] (-) TimerEvent: {}
+[21.017735] (-) TimerEvent: {}
+[21.031195] (test_interface) StdoutLine: {'line': b'[ 78%] Built target test_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[21.115761] (test_interface) StdoutLine: {'line': b'[ 78%] Built target test_interface\n'}
+[21.117820] (-) TimerEvent: {}
+[21.202268] (test_interface) StdoutLine: {'line': b'[ 80%] Generating Python code for ROS interfaces\n'}
+[21.218010] (-) TimerEvent: {}
+[21.318451] (-) TimerEvent: {}
+[21.418873] (-) TimerEvent: {}
+[21.519281] (-) TimerEvent: {}
+[21.619717] (-) TimerEvent: {}
+[21.720148] (-) TimerEvent: {}
+[21.820549] (-) TimerEvent: {}
+[21.920957] (-) TimerEvent: {}
+[22.021357] (-) TimerEvent: {}
+[22.121757] (-) TimerEvent: {}
+[22.222156] (-) TimerEvent: {}
+[22.322552] (-) TimerEvent: {}
+[22.422942] (-) TimerEvent: {}
+[22.523350] (-) TimerEvent: {}
+[22.623766] (-) TimerEvent: {}
+[22.724184] (-) TimerEvent: {}
+[22.824555] (-) TimerEvent: {}
+[22.924928] (-) TimerEvent: {}
+[23.025332] (-) TimerEvent: {}
+[23.125752] (-) TimerEvent: {}
+[23.226170] (-) TimerEvent: {}
+[23.326581] (-) TimerEvent: {}
+[23.427021] (-) TimerEvent: {}
+[23.527493] (-) TimerEvent: {}
+[23.627927] (-) TimerEvent: {}
+[23.728340] (-) TimerEvent: {}
+[23.828716] (-) TimerEvent: {}
+[23.929121] (-) TimerEvent: {}
+[24.029517] (-) TimerEvent: {}
+[24.129912] (-) TimerEvent: {}
+[24.230319] (-) TimerEvent: {}
+[24.330708] (-) TimerEvent: {}
+[24.431118] (-) TimerEvent: {}
+[24.531524] (-) TimerEvent: {}
+[24.631918] (-) TimerEvent: {}
+[24.732317] (-) TimerEvent: {}
+[24.832702] (-) TimerEvent: {}
+[24.933106] (-) TimerEvent: {}
+[25.033545] (-) TimerEvent: {}
+[25.134005] (-) TimerEvent: {}
+[25.234509] (-) TimerEvent: {}
+[25.235281] (test_interface) StdoutLine: {'line': b'[ 80%] Built target test_interface__py\n'}
+[25.323537] (test_interface) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_object_msg_s.c.o\n'}
+[25.325086] (test_interface) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_resnet_msg_s.c.o\n'}
+[25.325727] (test_interface) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_obj_position_s.c.o\n'}
+[25.326298] (test_interface) StdoutLine: {'line': b'[ 87%] Building C object CMakeFiles/test_interface__rosidl_generator_py.dir/rosidl_generator_py/test_interface/msg/_video_log_msg_s.c.o\n'}
+[25.334731] (-) TimerEvent: {}
+[25.435239] (-) TimerEvent: {}
+[25.535744] (-) TimerEvent: {}
+[25.636253] (-) TimerEvent: {}
+[25.736744] (-) TimerEvent: {}
+[25.837315] (-) TimerEvent: {}
+[25.937901] (-) TimerEvent: {}
+[25.941522] (test_interface) StdoutLine: {'line': b'[ 89%] Linking C shared library rosidl_generator_py/test_interface/libtest_interface__rosidl_generator_py.so\n'}
+[26.038124] (-) TimerEvent: {}
+[26.138869] (-) TimerEvent: {}
+[26.158451] (test_interface) StdoutLine: {'line': b'[ 89%] Built target test_interface__rosidl_generator_py\n'}
+[26.239064] (-) TimerEvent: {}
+[26.239870] (test_interface) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/test_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/test_interface/_test_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\n'}
+[26.240527] (test_interface) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/test_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/test_interface/_test_interface_s.ep.rosidl_typesupport_introspection_c.c.o\n'}
+[26.240998] (test_interface) StdoutLine: {'line': b'[ 94%] Building C object CMakeFiles/test_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/test_interface/_test_interface_s.ep.rosidl_typesupport_c.c.o\n'}
+[26.339246] (-) TimerEvent: {}
+[26.439708] (-) TimerEvent: {}
+[26.540192] (-) TimerEvent: {}
+[26.640700] (-) TimerEvent: {}
+[26.741161] (-) TimerEvent: {}
+[26.813753] (test_interface) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.814610] (test_interface) StdoutLine: {'line': b'[ 98%] Linking C shared library rosidl_generator_py/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.841377] (-) TimerEvent: {}
+[26.842245] (test_interface) StdoutLine: {'line': b'[100%] Linking C shared library rosidl_generator_py/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.941606] (-) TimerEvent: {}
+[26.970450] (test_interface) StdoutLine: {'line': b'[100%] Built target test_interface__rosidl_typesupport_c__pyext\n'}
+[26.976367] (test_interface) StdoutLine: {'line': b'[100%] Built target test_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[27.006139] (test_interface) StdoutLine: {'line': b'[100%] Built target test_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[27.041811] (-) TimerEvent: {}
+[27.060852] (test_interface) CommandEnded: {'returncode': 0}
+[27.063682] (test_interface) JobProgress: {'identifier': 'test_interface', 'progress': 'install'}
+[27.104363] (test_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/userdata/code_test/build/test_interface'], 'cwd': '/userdata/code_test/build/test_interface', 'env': OrderedDict([('USER', 'root'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/userdata/code_test'), ('ROS_PYTHON_VERSION', '3'), ('LC_CTYPE', 'C.UTF-8'), ('TROS_DISTRO', 'humble'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/bin:/bin:/usr/local/sbin:/usr/local/bin:/sbin:/usr/sbin'), ('AMENT_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble'), ('PWD', '/userdata/code_test/build/test_interface'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[27.141695] (test_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.142805] (-) TimerEvent: {}
+[27.143297] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/ament_index/resource_index/rosidl_interfaces/test_interface\n'}
+[27.144864] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[27.146371] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[27.146923] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/resnet_msg.h\n'}
+[27.148065] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/video_log_msg.h\n'}
+[27.149275] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.150517] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/object_msg.h\n'}
+[27.151727] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/obj_position.h\n'}
+[27.152679] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[27.153648] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__functions.c\n'}
+[27.154385] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__struct.h\n'}
+[27.155225] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__functions.c\n'}
+[27.156268] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.h\n'}
+[27.156834] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__struct.h\n'}
+[27.158476] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__functions.h\n'}
+[27.160109] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.h\n'}
+[27.161237] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__struct.h\n'}
+[27.161810] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.h\n'}
+[27.162341] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__functions.h\n'}
+[27.164175] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__functions.h\n'}
+[27.165239] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__functions.h\n'}
+[27.166518] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__struct.h\n'}
+[27.167547] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__functions.c\n'}
+[27.168388] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.h\n'}
+[27.168911] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__functions.c\n'}
+[27.169951] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/library_path.sh\n'}
+[27.170438] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/library_path.dsv\n'}
+[27.170930] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_c.so\n'}
+[27.173002] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_c.so" to ""\n'}
+[27.174253] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[27.175521] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[27.176857] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.178212] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[27.179924] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[27.181205] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[27.181970] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[27.182748] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_c.h\n'}
+[27.183236] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[27.183702] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[27.185236] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[27.186238] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[27.187562] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.188362] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[27.189163] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.c\n'}
+[27.189950] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.c\n'}
+[27.190426] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_introspection_c.h\n'}
+[27.190900] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_introspection_c.h\n'}
+[27.191646] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.c\n'}
+[27.192392] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.c\n'}
+[27.192871] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_introspection_c.h\n'}
+[27.193850] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_introspection_c.h\n'}
+[27.194848] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_c.so\n'}
+[27.195838] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[27.196847] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_c.so\n'}
+[27.198116] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_c.so" to ""\n'}
+[27.199383] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[27.200652] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[27.201933] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/obj_position.hpp\n'}
+[27.203093] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/resnet_msg.hpp\n'}
+[27.204415] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[27.205430] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__builder.hpp\n'}
+[27.205934] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__traits.hpp\n'}
+[27.206408] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__struct.hpp\n'}
+[27.206856] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__traits.hpp\n'}
+[27.207290] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__struct.hpp\n'}
+[27.207766] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__traits.hpp\n'}
+[27.208188] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__struct.hpp\n'}
+[27.208605] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__struct.hpp\n'}
+[27.209025] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__builder.hpp\n'}
+[27.209436] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__builder.hpp\n'}
+[27.209841] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__traits.hpp\n'}
+[27.210289] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__builder.hpp\n'}
+[27.210711] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/video_log_msg.hpp\n'}
+[27.211129] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/object_msg.hpp\n'}
+[27.211543] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[27.212031] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[27.212446] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[27.212855] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/dds_fastrtps\n'}
+[27.213263] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.213674] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.214080] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.214485] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.214887] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.215325] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.215728] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[27.216131] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[27.216530] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[27.216930] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[27.217329] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.cpp\n'}
+[27.217818] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.218233] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.cpp\n'}
+[27.218641] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.219049] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.cpp\n'}
+[27.219450] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.219888] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.220292] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.cpp\n'}
+[27.220698] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[27.221102] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[27.221507] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_cpp.so\n'}
+[27.221909] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[27.222315] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/pythonpath.sh\n'}
+[27.222726] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/pythonpath.dsv\n'}
+[27.223136] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info\n'}
+[27.223551] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[27.223963] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[27.224376] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[27.224864] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[27.225281] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface\n'}
+[27.225694] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.226106] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg\n'}
+[27.226510] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg.py\n'}
+[27.226918] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position.py\n'}
+[27.227357] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg_s.c\n'}
+[27.227825] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg.py\n'}
+[27.228250] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position_s.c\n'}
+[27.228729] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg.py\n'}
+[27.229174] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/__init__.py\n'}
+[27.229612] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg_s.c\n'}
+[27.230040] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg_s.c\n'}
+[27.230466] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_c.c\n'}
+[27.230892] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[27.231311] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/libtest_interface__rosidl_generator_py.so\n'}
+[27.231730] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/__init__.py\n'}
+[27.232148] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[27.232570] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.232992] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.242956] (-) TimerEvent: {}
+[27.343382] (-) TimerEvent: {}
+[27.421940] (test_interface) StdoutLine: {'line': b"Listing '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface'...\n"}
+[27.422707] (test_interface) StdoutLine: {'line': b"Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/__init__.py'...\n"}
+[27.423267] (test_interface) StdoutLine: {'line': b"Listing '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg'...\n"}
+[27.423772] (test_interface) StdoutLine: {'line': b"Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/__init__.py'...\n"}
+[27.424258] (test_interface) StdoutLine: {'line': b"Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position.py'...\n"}
+[27.424730] (test_interface) StdoutLine: {'line': b"Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg.py'...\n"}
+[27.425184] (test_interface) StdoutLine: {'line': b"Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg.py'...\n"}
+[27.425627] (test_interface) StdoutLine: {'line': b"Compiling '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg.py'...\n"}
+[27.443537] (-) TimerEvent: {}
+[27.463035] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.464210] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[27.465396] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.466475] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[27.467457] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.468690] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[27.469599] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_py.so\n'}
+[27.470901] (test_interface) StdoutLine: {'line': b'-- Set runtime path of "/userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_py.so" to ""\n'}
+[27.472005] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjPosition.idl\n'}
+[27.473101] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ResnetMsg.idl\n'}
+[27.474396] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/VideoLogMsg.idl\n'}
+[27.475500] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjectMsg.idl\n'}
+[27.476370] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjPosition.msg\n'}
+[27.477452] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ResnetMsg.msg\n'}
+[27.478255] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/VideoLogMsg.msg\n'}
+[27.479262] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjectMsg.msg\n'}
+[27.480316] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/ament_index/resource_index/package_run_dependencies/test_interface\n'}
+[27.481401] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/ament_index/resource_index/parent_prefix_path/test_interface\n'}
+[27.482246] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/ament_prefix_path.sh\n'}
+[27.483105] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/ament_prefix_path.dsv\n'}
+[27.483913] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/path.sh\n'}
+[27.484722] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/environment/path.dsv\n'}
+[27.485824] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/local_setup.bash\n'}
+[27.486681] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/local_setup.sh\n'}
+[27.487863] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/local_setup.zsh\n'}
+[27.488726] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/local_setup.dsv\n'}
+[27.489804] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/package.dsv\n'}
+[27.490606] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/ament_index/resource_index/packages/test_interface\n'}
+[27.491641] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cExport.cmake\n'}
+[27.492407] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[27.493426] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[27.494419] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[27.495171] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[27.496181] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[27.496977] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport.cmake\n'}
+[27.498135] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[27.499191] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cppExport.cmake\n'}
+[27.499928] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[27.500433] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[27.500931] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[27.501410] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[27.501874] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport.cmake\n'}
+[27.502319] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[27.502752] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_pyExport.cmake\n'}
+[27.503172] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[27.503584] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[27.504029] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[27.504433] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[27.504834] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[27.505236] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[27.505819] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[27.507090] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[27.512238] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interfaceConfig.cmake\n'}
+[27.513219] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interfaceConfig-version.cmake\n'}
+[27.513922] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/package.xml\n'}
+[27.514677] (test_interface) CommandEnded: {'returncode': 0}
+[27.544033] (-) TimerEvent: {}
+[27.608335] (test_interface) JobEnded: {'identifier': 'test_interface', 'rc': 0}
+[27.613388] (test_carcontrol) JobStarted: {'identifier': 'test_carcontrol'}
+[27.644248] (-) TimerEvent: {}
+[27.744682] (-) TimerEvent: {}
+[27.845160] (-) TimerEvent: {}
+[27.945625] (-) TimerEvent: {}
+[28.046075] (-) TimerEvent: {}
+[28.146528] (-) TimerEvent: {}
+[28.246995] (-) TimerEvent: {}
+[28.347456] (-) TimerEvent: {}
+[28.447891] (-) TimerEvent: {}
+[28.548326] (-) TimerEvent: {}
+[28.648761] (-) TimerEvent: {}
+[28.749202] (-) TimerEvent: {}
+[28.849636] (-) TimerEvent: {}
+[28.950071] (-) TimerEvent: {}
+[29.050524] (-) TimerEvent: {}
+[29.150951] (-) TimerEvent: {}
+[29.251381] (-) TimerEvent: {}
+[29.351840] (-) TimerEvent: {}
+[29.452288] (-) TimerEvent: {}
+[29.552741] (-) TimerEvent: {}
+[29.653186] (-) TimerEvent: {}
+[29.753612] (-) TimerEvent: {}
+[29.854037] (-) TimerEvent: {}
+[29.954460] (-) TimerEvent: {}
+[30.054903] (-) TimerEvent: {}
+[30.155343] (-) TimerEvent: {}
+[30.255780] (-) TimerEvent: {}
+[30.356217] (-) TimerEvent: {}
+[30.456643] (-) TimerEvent: {}
+[30.557082] (-) TimerEvent: {}
+[30.657542] (-) TimerEvent: {}
+[30.757969] (-) TimerEvent: {}
+[30.858410] (-) TimerEvent: {}
+[30.958845] (-) TimerEvent: {}
+[31.059278] (-) TimerEvent: {}
+[31.159712] (-) TimerEvent: {}
+[31.260132] (-) TimerEvent: {}
+[31.360563] (-) TimerEvent: {}
+[31.461006] (-) TimerEvent: {}
+[31.561476] (-) TimerEvent: {}
+[31.661953] (-) TimerEvent: {}
+[31.702330] (test_carcontrol) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_carcontrol', 'build', '--build-base', '/userdata/code_test/build/test_carcontrol/build', 'install', '--record', '/userdata/code_test/build/test_carcontrol/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/code_test/src/test_carcontrol', 'env': {'USER': 'root', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/userdata/code_test/install/test_interface/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/userdata/code_test', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'C.UTF-8', 'TROS_DISTRO': 'humble', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/bin:/bin:/usr/local/sbin:/usr/local/bin:/sbin:/usr/sbin', 'AMENT_PREFIX_PATH': '/userdata/code_test/install/test_interface:/opt/tros/humble:/opt/ros/humble', 'PWD': '/userdata/code_test/build/test_carcontrol', 'PYTHONPATH': '/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/code_test/install/test_interface'}, 'shell': False}
+[31.762135] (-) TimerEvent: {}
+[31.862570] (-) TimerEvent: {}
+[31.963002] (-) TimerEvent: {}
+[32.063438] (-) TimerEvent: {}
+[32.163899] (-) TimerEvent: {}
+[32.264355] (-) TimerEvent: {}
+[32.364785] (-) TimerEvent: {}
+[32.465223] (-) TimerEvent: {}
+[32.565669] (-) TimerEvent: {}
+[32.666132] (-) TimerEvent: {}
+[32.766585] (-) TimerEvent: {}
+[32.867025] (-) TimerEvent: {}
+[32.967491] (-) TimerEvent: {}
+[33.067929] (-) TimerEvent: {}
+[33.168360] (-) TimerEvent: {}
+[33.268800] (-) TimerEvent: {}
+[33.351137] (test_carcontrol) StdoutLine: {'line': b'running egg_info\n'}
+[33.354580] (test_carcontrol) StdoutLine: {'line': b'creating ../../build/test_carcontrol/test_carcontrol.egg-info\n'}
+[33.355756] (test_carcontrol) StdoutLine: {'line': b'writing ../../build/test_carcontrol/test_carcontrol.egg-info/PKG-INFO\n'}
+[33.357051] (test_carcontrol) StdoutLine: {'line': b'writing dependency_links to ../../build/test_carcontrol/test_carcontrol.egg-info/dependency_links.txt\n'}
+[33.358663] (test_carcontrol) StdoutLine: {'line': b'writing entry points to ../../build/test_carcontrol/test_carcontrol.egg-info/entry_points.txt\n'}
+[33.359760] (test_carcontrol) StdoutLine: {'line': b'writing requirements to ../../build/test_carcontrol/test_carcontrol.egg-info/requires.txt\n'}
+[33.360243] (test_carcontrol) StdoutLine: {'line': b'writing top-level names to ../../build/test_carcontrol/test_carcontrol.egg-info/top_level.txt\n'}
+[33.360990] (test_carcontrol) StdoutLine: {'line': b"writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'\n"}
+[33.368919] (-) TimerEvent: {}
+[33.371893] (test_carcontrol) StdoutLine: {'line': b"reading manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'\n"}
+[33.378529] (test_carcontrol) StdoutLine: {'line': b"writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'\n"}
+[33.379667] (test_carcontrol) StdoutLine: {'line': b'running build\n'}
+[33.380203] (test_carcontrol) StdoutLine: {'line': b'running build_py\n'}
+[33.381685] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/build/test_carcontrol/build\n'}
+[33.382586] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/build/test_carcontrol/build/lib\n'}
+[33.383387] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.384234] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/new_yolo_d.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.385033] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/depth_yolo2.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.386029] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/test_resnet.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.386735] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/test_carcontrol.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.387500] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/depth_logger.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.388229] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/new_ctrlpub.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.388930] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/new_pidctrl.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.389628] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/test_qrcode.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.390336] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/new_resnet.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.391021] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/new_videologger.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.391712] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/test_car_pid.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.392413] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/test_llm.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.393131] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/depth_image.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.394150] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/car_keyboard.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.394882] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/test_llm_local.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.395596] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/qrcode_wechat.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.396297] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/__init__.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.397032] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/image_comp.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.397509] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/code_test_paths.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.397958] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/depth_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.398378] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/new_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.398789] (test_carcontrol) StdoutLine: {'line': b'copying test_carcontrol/test_yolo.py -> /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol\n'}
+[33.399480] (test_carcontrol) StdoutLine: {'line': b'running install\n'}
+[33.401361] (test_carcontrol) StdoutLine: {'line': b'running install_lib\n'}
+[33.405406] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.406258] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_yolo_d.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.407037] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_yolo2.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.408093] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_resnet.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.408824] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_carcontrol.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.409753] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_logger.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.410462] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_ctrlpub.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.411163] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_pidctrl.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.412095] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_qrcode.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.412796] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_resnet.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.413498] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_videologger.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.414450] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_car_pid.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.415154] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_llm.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.416090] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_image.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.417073] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/car_keyboard.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.417939] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_llm_local.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.418720] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/qrcode_wechat.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.419202] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/__init__.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.419656] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/image_comp.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.420129] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/code_test_paths.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.420566] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/depth_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.420991] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/new_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.421786] (test_carcontrol) StdoutLine: {'line': b'copying /userdata/code_test/build/test_carcontrol/build/lib/test_carcontrol/test_yolo.py -> /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol\n'}
+[33.422208] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_yolo_d.py to new_yolo_d.cpython-310.pyc\n'}
+[33.439457] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_yolo2.py to depth_yolo2.cpython-310.pyc\n'}
+[33.445105] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_resnet.py to test_resnet.cpython-310.pyc\n'}
+[33.448224] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_carcontrol.py to test_carcontrol.cpython-310.pyc\n'}
+[33.450361] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_logger.py to depth_logger.cpython-310.pyc\n'}
+[33.454743] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_ctrlpub.py to new_ctrlpub.cpython-310.pyc\n'}
+[33.457217] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_pidctrl.py to new_pidctrl.cpython-310.pyc\n'}
+[33.465592] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_qrcode.py to test_qrcode.cpython-310.pyc\n'}
+[33.468775] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_resnet.py to new_resnet.cpython-310.pyc\n'}
+[33.469395] (-) TimerEvent: {}
+[33.474931] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_videologger.py to new_videologger.cpython-310.pyc\n'}
+[33.482733] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_car_pid.py to test_car_pid.cpython-310.pyc\n'}
+[33.491082] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_llm.py to test_llm.cpython-310.pyc\n'}
+[33.494414] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_image.py to depth_image.cpython-310.pyc\n'}
+[33.500382] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/car_keyboard.py to car_keyboard.cpython-310.pyc\n'}
+[33.505600] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_llm_local.py to test_llm_local.cpython-310.pyc\n'}
+[33.509149] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/qrcode_wechat.py to qrcode_wechat.cpython-310.pyc\n'}
+[33.512622] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/__init__.py to __init__.cpython-310.pyc\n'}
+[33.513563] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/image_comp.py to image_comp.cpython-310.pyc\n'}
+[33.517171] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/code_test_paths.py to code_test_paths.cpython-310.pyc\n'}
+[33.521382] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/depth_yolo.py to depth_yolo.cpython-310.pyc\n'}
+[33.526663] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/new_yolo.py to new_yolo.cpython-310.pyc\n'}
+[33.541466] (test_carcontrol) StdoutLine: {'line': b'byte-compiling /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol/test_yolo.py to test_yolo.cpython-310.pyc\n'}
+[33.544704] (test_carcontrol) StdoutLine: {'line': b'running install_data\n'}
+[33.546523] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/install/test_carcontrol/share/ament_index\n'}
+[33.547558] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index\n'}
+[33.548860] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index/packages\n'}
+[33.549887] (test_carcontrol) StdoutLine: {'line': b'copying resource/test_carcontrol -> /userdata/code_test/install/test_carcontrol/share/ament_index/resource_index/packages\n'}
+[33.550675] (test_carcontrol) StdoutLine: {'line': b'copying package.xml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol\n'}
+[33.551668] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch\n'}
+[33.552435] (test_carcontrol) StdoutLine: {'line': b'copying launch/race_with_origincar.launch.py -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch\n'}
+[33.552933] (test_carcontrol) StdoutLine: {'line': b'copying launch/race_bringup.launch.py -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/launch\n'}
+[33.553418] (test_carcontrol) StdoutLine: {'line': b'creating /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.553890] (test_carcontrol) StdoutLine: {'line': b'copying config/sr.caffemodel -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.554352] (test_carcontrol) StdoutLine: {'line': b'copying config/config_videologger.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.554807] (test_carcontrol) StdoutLine: {'line': b'copying config/detect.prototxt -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.555249] (test_carcontrol) StdoutLine: {'line': b'copying config/config_car_keyboard.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.555684] (test_carcontrol) StdoutLine: {'line': b'copying config/config_yolo_plan.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.556177] (test_carcontrol) StdoutLine: {'line': b'copying config/sr.prototxt -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.556625] (test_carcontrol) StdoutLine: {'line': b'copying config/detect.caffemodel -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.559090] (test_carcontrol) StdoutLine: {'line': b'copying config/config_image_compress.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.559999] (test_carcontrol) StdoutLine: {'line': b'copying config/config_new_yolo_d.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.561048] (test_carcontrol) StdoutLine: {'line': b'copying config/config_new_resnet.yaml -> /userdata/code_test/install/test_carcontrol/share/test_carcontrol/config\n'}
+[33.561531] (test_carcontrol) StdoutLine: {'line': b'running install_egg_info\n'}
+[33.569560] (-) TimerEvent: {}
+[33.572012] (test_carcontrol) StdoutLine: {'line': b'Copying ../../build/test_carcontrol/test_carcontrol.egg-info to /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info\n'}
+[33.577203] (test_carcontrol) StdoutLine: {'line': b'running install_scripts\n'}
+[33.669708] (-) TimerEvent: {}
+[33.698412] (test_carcontrol) StdoutLine: {'line': b'Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.699684] (test_carcontrol) StdoutLine: {'line': b'Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.700989] (test_carcontrol) StdoutLine: {'line': b'Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.702268] (test_carcontrol) StdoutLine: {'line': b'Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.703536] (test_carcontrol) StdoutLine: {'line': b'Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.704789] (test_carcontrol) StdoutLine: {'line': b'Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.705861] (test_carcontrol) StdoutLine: {'line': b'Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.706417] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.706937] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.707516] (test_carcontrol) StdoutLine: {'line': b'Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.708066] (test_carcontrol) StdoutLine: {'line': b'Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.708577] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.709067] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.709588] (test_carcontrol) StdoutLine: {'line': b'Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.710599] (test_carcontrol) StdoutLine: {'line': b'Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.711108] (test_carcontrol) StdoutLine: {'line': b'Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.711610] (test_carcontrol) StdoutLine: {'line': b'Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[33.712110] (test_carcontrol) StdoutLine: {'line': b"writing list of installed files to '/userdata/code_test/build/test_carcontrol/install.log'\n"}
+[33.769916] (-) TimerEvent: {}
+[33.870406] (-) TimerEvent: {}
+[33.909693] (test_carcontrol) CommandEnded: {'returncode': 0}
+[33.960755] (test_carcontrol) JobEnded: {'identifier': 'test_carcontrol', 'rc': 0}
+[33.963550] (-) EventReactorShutdown: {}

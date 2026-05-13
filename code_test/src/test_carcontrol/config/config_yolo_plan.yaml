@@ -1,0 +1,20 @@
+# 配置文件格式：
+# pid这样的表示前面的大类
+# pid下面的键值表示参数
+# 添加键值就可以添加参数，注意，冒号后面需要加一个空格，否则无法正常读取
+# 添加键值的缩进只能用空格，不能用tab
+pid: 
+ Kp: 0.8
+ Kd: 0.6
+ Target: 295
+ outputRatio: 1.5
+
+
+car: 
+ speed: 0.7
+ angular: 200
+ line_mode: 1
+
+yolo: 
+ base_obs_area: 18000
+ base_qr_area: 1300

@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from test_interface/msg/ObjectMsg.msg
+// generated code does not contain a copyright notice
+
+
+module test_interface {
+  module msg {
+    struct ObjectMsg {
+      string obj_type;
+
+      int32 xl;
+
+      int32 xr;
+
+      int32 yu;
+
+      int32 yd;
+
+      int32 distance;
+    };
+  };
+};

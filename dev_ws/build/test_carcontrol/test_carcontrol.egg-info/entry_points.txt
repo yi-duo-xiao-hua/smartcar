@@ -1,0 +1,19 @@
+[console_scripts]
+car_keyboard = test_carcontrol.car_keyboard:main
+depth_image = test_carcontrol.depth_image:main
+image_com = test_carcontrol.image_comp:main
+new_carctrl = test_carcontrol.new_pidctrl:main
+new_ctrlpub = test_carcontrol.new_ctrlpub:main
+new_resnet = test_carcontrol.new_resnet:main
+new_videologger = test_carcontrol.new_videologger:main
+new_yolo = test_carcontrol.new_yolo:main
+new_yolo_d = test_carcontrol.new_yolo_d:main
+qrcode_wechat = test_carcontrol.qrcode_wechat:main
+test_carcontrol = test_carcontrol.test_carcontrol:main
+test_llm = test_carcontrol.test_llm:main
+test_llm_local = test_carcontrol.test_llm_local:main
+test_pidcontroller = test_carcontrol.test_car_pid:main
+test_qrcode = test_carcontrol.test_qrcode:main
+test_resnet = test_carcontrol.test_resnet:main
+test_yolo = test_carcontrol.test_yolo:main
+

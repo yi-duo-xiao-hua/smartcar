@@ -1,0 +1,37 @@
+[4.237s] Invoking command in '/userdata/code_test/src/test_node': PYTHONPATH=/userdata/code_test/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_node build --build-base /userdata/code_test/build/test_node/build install --record /userdata/code_test/build/test_node/install.log --single-version-externally-managed install_data
+[5.869s] running egg_info
+[5.873s] creating ../../build/test_node/test_node.egg-info
+[5.874s] writing ../../build/test_node/test_node.egg-info/PKG-INFO
+[5.876s] writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt
+[5.877s] writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt
+[5.877s] writing requirements to ../../build/test_node/test_node.egg-info/requires.txt
+[5.878s] writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt
+[5.879s] writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[5.889s] reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[5.893s] writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'
+[5.895s] running build
+[5.896s] running build_py
+[5.897s] creating /userdata/code_test/build/test_node/build
+[5.897s] creating /userdata/code_test/build/test_node/build/lib
+[5.897s] creating /userdata/code_test/build/test_node/build/lib/test_node
+[5.898s] copying test_node/test_node_pwd.py -> /userdata/code_test/build/test_node/build/lib/test_node
+[5.899s] copying test_node/__init__.py -> /userdata/code_test/build/test_node/build/lib/test_node
+[5.899s] running install
+[5.900s] running install_lib
+[5.903s] creating /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node
+[5.904s] copying /userdata/code_test/build/test_node/build/lib/test_node/test_node_pwd.py -> /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node
+[5.904s] copying /userdata/code_test/build/test_node/build/lib/test_node/__init__.py -> /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node
+[5.907s] byte-compiling /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node/test_node_pwd.py to test_node_pwd.cpython-310.pyc
+[5.908s] byte-compiling /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node/__init__.py to __init__.cpython-310.pyc
+[5.910s] running install_data
+[5.911s] creating /userdata/code_test/install/test_node/share/ament_index
+[5.912s] creating /userdata/code_test/install/test_node/share/ament_index/resource_index
+[5.912s] creating /userdata/code_test/install/test_node/share/ament_index/resource_index/packages
+[5.913s] copying resource/test_node -> /userdata/code_test/install/test_node/share/ament_index/resource_index/packages
+[5.914s] copying package.xml -> /userdata/code_test/install/test_node/share/test_node
+[5.914s] running install_egg_info
+[5.924s] Copying ../../build/test_node/test_node.egg-info to /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info
+[5.929s] running install_scripts
+[6.053s] Installing pwd_node script to /userdata/code_test/install/test_node/lib/test_node
+[6.055s] writing list of installed files to '/userdata/code_test/build/test_node/install.log'
+[6.266s] Invoked command in '/userdata/code_test/src/test_node' returned '0': PYTHONPATH=/userdata/code_test/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_node build --build-base /userdata/code_test/build/test_node/build install --record /userdata/code_test/build/test_node/install.log --single-version-externally-managed install_data
