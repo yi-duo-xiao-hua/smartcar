@@ -1,0 +1,32 @@
+[0.287s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[2.614s] [100%] Built target serial
+[2.672s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/serial -- -j8 -l8
+[2.681s] Invoking command in '/userdata/dev_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/serial
+[2.731s] -- Install configuration: ""
+[2.733s] -- Execute custom install script
+[2.735s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/lib/libserial.a
+[2.743s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/library_path.sh
+[2.744s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/library_path.dsv
+[2.745s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/impl/unix.h
+[2.746s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/impl/win.h
+[2.747s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/serial.h
+[2.747s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/include/serial/v8stdint.h
+[2.748s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.749s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.750s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.750s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.751s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/path.sh
+[2.752s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/environment/path.dsv
+[2.753s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.bash
+[2.754s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.sh
+[2.754s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.zsh
+[2.755s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/local_setup.dsv
+[2.756s] -- Symlinking: /userdata/dev_ws/install/serial/share/serial/package.dsv
+[2.813s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/ament_index/resource_index/packages/serial
+[2.814s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.815s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.816s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.817s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[2.818s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.819s] -- Up-to-date symlink: /userdata/dev_ws/install/serial/share/serial/package.xml
+[2.972s] Invoked command in '/userdata/dev_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/serial

@@ -1,1 +1,2 @@
 /userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/usb_websocket_display.launch.py
+/userdata/dev_ws/install/origincar_bringup/share/origincar_bringup/launch/__pycache__/usb_websocket_display.launch.cpython-310.pyc

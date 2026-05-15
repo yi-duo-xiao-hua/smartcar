@@ -1,0 +1,372 @@
+[0.000000] (-) TimerEvent: {}
+[0.001945] (test_interface) JobQueued: {'identifier': 'test_interface', 'dependencies': OrderedDict()}
+[0.002684] (test_node) JobQueued: {'identifier': 'test_node', 'dependencies': OrderedDict()}
+[0.003401] (test_carcontrol) JobQueued: {'identifier': 'test_carcontrol', 'dependencies': OrderedDict([('test_interface', '/userdata/code_test/install/test_interface')])}
+[0.003648] (test_interface) JobStarted: {'identifier': 'test_interface'}
+[0.045521] (test_node) JobStarted: {'identifier': 'test_node'}
+[0.093929] (test_interface) JobProgress: {'identifier': 'test_interface', 'progress': 'cmake'}
+[0.097060] (test_interface) JobProgress: {'identifier': 'test_interface', 'progress': 'build'}
+[0.101021] (test_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/userdata/code_test/build/test_interface', '--', '-j8', '-l8'], 'cwd': '/userdata/code_test/build/test_interface', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.85.2 54659 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/userdata/code_test/install/test_interface/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata'), ('TERM_PROGRAM_VERSION', '3.0.13'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-40dd420e-7945-4b6c-b59e-ab54c1507ed2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/code_test/install:/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '149'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/bin:/root/.npm-global/bin:/root/.local/bin:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/bin:/root/.npm-global/bin:/root/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-3350c10d19.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/code_test/install/test_interface:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_IPC_AUTH_TOKEN', '94eb33a1b0328b325389d44253b72640c256be00ee3dcde59a46d48526b55de5'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/code_test/build/test_interface'), ('SSH_CONNECTION', '192.168.85.2 54659 192.168.85.210 22'), ('PYTHONPATH', '/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:/userdata/dev_ws/install/test_carcontrol/lib/python3.10/site-packages:/userdata/dev_ws/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/userdata/code_test/install/test_node/lib/python3.10/site-packages:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/code_test/install/test_interface:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.106140] (-) TimerEvent: {}
+[0.207033] (-) TimerEvent: {}
+[0.308066] (-) TimerEvent: {}
+[0.367851] (test_interface) StdoutLine: {'line': b'[  1%] Built target test_interface__cpp\n'}
+[0.395591] (test_interface) StdoutLine: {'line': b'[ 12%] Built target test_interface__rosidl_generator_c\n'}
+[0.410801] (-) TimerEvent: {}
+[0.419131] (test_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_test_interface\n'}
+[0.511093] (-) TimerEvent: {}
+[0.532251] (test_interface) StdoutLine: {'line': b'[ 23%] Built target test_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.539131] (test_interface) StdoutLine: {'line': b'[ 34%] Built target test_interface__rosidl_typesupport_cpp\n'}
+[0.540766] (test_interface) StdoutLine: {'line': b'[ 45%] Built target test_interface__rosidl_typesupport_introspection_c\n'}
+[0.541776] (test_interface) StdoutLine: {'line': b'[ 56%] Built target test_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.547175] (test_interface) StdoutLine: {'line': b'[ 67%] Built target test_interface__rosidl_typesupport_c\n'}
+[0.553114] (test_interface) StdoutLine: {'line': b'[ 78%] Built target test_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.611273] (-) TimerEvent: {}
+[0.651207] (test_interface) StdoutLine: {'line': b'[ 78%] Built target test_interface\n'}
+[0.711466] (-) TimerEvent: {}
+[0.755333] (test_interface) StdoutLine: {'line': b'[ 80%] Built target test_interface__py\n'}
+[0.811671] (-) TimerEvent: {}
+[0.882955] (test_interface) StdoutLine: {'line': b'[ 89%] Built target test_interface__rosidl_generator_py\n'}
+[0.911887] (-) TimerEvent: {}
+[0.989072] (test_interface) StdoutLine: {'line': b'[100%] Built target test_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.990017] (test_interface) StdoutLine: {'line': b'[100%] Built target test_interface__rosidl_typesupport_c__pyext\n'}
+[0.990676] (test_interface) StdoutLine: {'line': b'[100%] Built target test_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.012064] (-) TimerEvent: {}
+[1.112962] (-) TimerEvent: {}
+[1.213895] (-) TimerEvent: {}
+[1.314756] (-) TimerEvent: {}
+[1.415608] (-) TimerEvent: {}
+[1.516490] (-) TimerEvent: {}
+[1.617352] (-) TimerEvent: {}
+[1.718209] (-) TimerEvent: {}
+[1.819060] (-) TimerEvent: {}
+[1.919946] (-) TimerEvent: {}
+[2.020812] (-) TimerEvent: {}
+[2.121698] (-) TimerEvent: {}
+[2.222603] (-) TimerEvent: {}
+[2.259102] (test_interface) StdoutLine: {'line': b'running egg_info\n'}
+[2.264756] (test_interface) StdoutLine: {'line': b'writing test_interface.egg-info/PKG-INFO\n'}
+[2.265921] (test_interface) StdoutLine: {'line': b'writing dependency_links to test_interface.egg-info/dependency_links.txt\n'}
+[2.267163] (test_interface) StdoutLine: {'line': b'writing top-level names to test_interface.egg-info/top_level.txt\n'}
+[2.284099] (test_interface) StdoutLine: {'line': b"reading manifest file 'test_interface.egg-info/SOURCES.txt'\n"}
+[2.288185] (test_interface) StdoutLine: {'line': b"writing manifest file 'test_interface.egg-info/SOURCES.txt'\n"}
+[2.322808] (-) TimerEvent: {}
+[2.423705] (-) TimerEvent: {}
+[2.495696] (test_interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_test_interface_egg\n'}
+[2.523926] (-) TimerEvent: {}
+[2.551124] (test_interface) CommandEnded: {'returncode': 0}
+[2.554409] (test_interface) JobProgress: {'identifier': 'test_interface', 'progress': 'install'}
+[2.595832] (test_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/userdata/code_test/build/test_interface'], 'cwd': '/userdata/code_test/build/test_interface', 'env': OrderedDict([('LANGUAGE', 'en_US.UTF-8'), ('USER', 'root'), ('SSH_CLIENT', '192.168.85.2 54659 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/userdata/code_test/install/test_interface/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/root'), ('OLDPWD', '/userdata'), ('TERM_PROGRAM_VERSION', '3.0.13'), ('VSCODE_IPC_HOOK_CLI', '/run/user/0/vscode-ipc-40dd420e-7945-4b6c-b59e-ab54c1507ed2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/0/bus'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', ''), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/userdata/code_test/install:/userdata/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('OVSX_REGISTRY_URL', 'https://open-vsx.org'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('MY_BOOT_INFO_PRINTED', '1'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '149'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/bin:/root/.npm-global/bin:/root/.local/bin:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/bin:/root/.npm-global/bin:/root/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/0/vscode-git-3350c10d19.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/code_test/install/test_interface:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_IPC_AUTH_TOKEN', '94eb33a1b0328b325389d44253b72640c256be00ee3dcde59a46d48526b55de5'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/userdata/code_test/build/test_interface'), ('SSH_CONNECTION', '192.168.85.2 54659 192.168.85.210 22'), ('PYTHONPATH', '/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:/userdata/dev_ws/install/test_carcontrol/lib/python3.10/site-packages:/userdata/dev_ws/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/userdata/code_test/install/test_node/lib/python3.10/site-packages:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/code_test/install/test_interface:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[2.624105] (-) TimerEvent: {}
+[2.637098] (test_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.638244] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/ament_index/resource_index/rosidl_interfaces/test_interface\n'}
+[2.639201] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[2.640081] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[2.640731] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/resnet_msg.h\n'}
+[2.641255] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/video_log_msg.h\n'}
+[2.641776] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.642239] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/object_msg.h\n'}
+[2.642794] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/obj_position.h\n'}
+[2.643608] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[2.644124] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__functions.c\n'}
+[2.644892] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__struct.h\n'}
+[2.645635] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__functions.c\n'}
+[2.646454] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.h\n'}
+[2.647009] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__struct.h\n'}
+[2.647556] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__functions.h\n'}
+[2.648080] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.h\n'}
+[2.648646] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__struct.h\n'}
+[2.649123] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.h\n'}
+[2.649890] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__functions.h\n'}
+[2.650735] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__functions.h\n'}
+[2.651481] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__functions.h\n'}
+[2.652165] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__struct.h\n'}
+[2.652872] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__functions.c\n'}
+[2.653446] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.h\n'}
+[2.654049] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__functions.c\n'}
+[2.654764] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/library_path.sh\n'}
+[2.655618] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/library_path.dsv\n'}
+[2.656222] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_c.so\n'}
+[2.656775] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[2.657260] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[2.657726] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.658283] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[2.658997] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[2.659865] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[2.660511] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[2.661107] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_c.h\n'}
+[2.661683] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[2.662181] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[2.662870] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[2.663802] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.664629] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[2.665201] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.c\n'}
+[2.665700] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.c\n'}
+[2.666219] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_introspection_c.h\n'}
+[2.666746] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_introspection_c.h\n'}
+[2.667262] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.c\n'}
+[2.667733] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.c\n'}
+[2.668192] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_introspection_c.h\n'}
+[2.668700] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_introspection_c.h\n'}
+[2.669207] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_c.so\n'}
+[2.669681] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_c.so\n'}
+[2.670139] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[2.670600] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[2.671060] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/obj_position.hpp\n'}
+[2.671517] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/resnet_msg.hpp\n'}
+[2.672041] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[2.672513] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__builder.hpp\n'}
+[2.672977] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__traits.hpp\n'}
+[2.673431] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__struct.hpp\n'}
+[2.673884] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__traits.hpp\n'}
+[2.674373] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__struct.hpp\n'}
+[2.674874] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__traits.hpp\n'}
+[2.675349] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__struct.hpp\n'}
+[2.675815] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__struct.hpp\n'}
+[2.676281] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__builder.hpp\n'}
+[2.676755] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__builder.hpp\n'}
+[2.677250] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__traits.hpp\n'}
+[2.677734] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__builder.hpp\n'}
+[2.678220] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/video_log_msg.hpp\n'}
+[2.678699] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/object_msg.hpp\n'}
+[2.679204] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[2.679744] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[2.680243] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[2.680740] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/dds_fastrtps\n'}
+[2.681227] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.681723] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.682267] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.682794] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.683311] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.683817] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.684317] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface\n'}
+[2.684872] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg\n'}
+[2.685381] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail\n'}
+[2.685898] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__type_support.cpp\n'}
+[2.686376] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/video_log_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.686855] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__type_support.cpp\n'}
+[2.687328] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.687862] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/obj_position__type_support.cpp\n'}
+[2.688331] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/object_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.688799] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.689267] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/include/test_interface/test_interface/msg/detail/resnet_msg__type_support.cpp\n'}
+[2.689718] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[2.690177] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_typesupport_cpp.so\n'}
+[2.690632] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/pythonpath.sh\n'}
+[2.691102] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/pythonpath.dsv\n'}
+[2.691596] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info\n'}
+[2.692114] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.692642] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.693157] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.693670] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.694229] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface\n'}
+[2.694786] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.695308] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg\n'}
+[2.695802] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg.py\n'}
+[2.696321] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position.py\n'}
+[2.696804] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_resnet_msg_s.c\n'}
+[2.697296] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg.py\n'}
+[2.697789] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_obj_position_s.c\n'}
+[2.698278] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg.py\n'}
+[2.698789] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/__init__.py\n'}
+[2.699268] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_object_msg_s.c\n'}
+[2.699746] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg/_video_log_msg_s.c\n'}
+[2.700221] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_c.c\n'}
+[2.700696] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.701173] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/libtest_interface__rosidl_generator_py.so\n'}
+[2.701648] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/__init__.py\n'}
+[2.702116] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/_test_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.702663] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.703140] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.724291] (-) TimerEvent: {}
+[2.825352] (-) TimerEvent: {}
+[2.901386] (test_interface) StdoutLine: {'line': b"Listing '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface'...\n"}
+[2.902218] (test_interface) StdoutLine: {'line': b"Listing '/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/msg'...\n"}
+[2.925558] (-) TimerEvent: {}
+[2.942441] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.944732] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.945440] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages/test_interface/test_interface_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.946176] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/lib/libtest_interface__rosidl_generator_py.so\n'}
+[2.946966] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjPosition.idl\n'}
+[2.947658] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ResnetMsg.idl\n'}
+[2.948351] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/VideoLogMsg.idl\n'}
+[2.949100] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjectMsg.idl\n'}
+[2.949771] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjPosition.msg\n'}
+[2.950483] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ResnetMsg.msg\n'}
+[2.951106] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/VideoLogMsg.msg\n'}
+[2.951604] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/msg/ObjectMsg.msg\n'}
+[2.952227] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/ament_index/resource_index/package_run_dependencies/test_interface\n'}
+[2.952777] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/ament_index/resource_index/parent_prefix_path/test_interface\n'}
+[2.953400] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/ament_prefix_path.sh\n'}
+[2.954023] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/ament_prefix_path.dsv\n'}
+[2.954705] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/path.sh\n'}
+[2.955378] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/environment/path.dsv\n'}
+[2.956016] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/local_setup.bash\n'}
+[2.956667] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/local_setup.sh\n'}
+[2.957323] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/local_setup.zsh\n'}
+[2.958021] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/local_setup.dsv\n'}
+[2.958740] (test_interface) StdoutLine: {'line': b'-- Installing: /userdata/code_test/install/test_interface/share/test_interface/package.dsv\n'}
+[2.959929] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/ament_index/resource_index/packages/test_interface\n'}
+[2.960511] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cExport.cmake\n'}
+[2.961044] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.961576] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.962141] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.962769] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.963336] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.963999] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport.cmake\n'}
+[2.964677] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.965323] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_cppExport.cmake\n'}
+[2.965878] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.966429] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.966970] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.967949] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.969260] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport.cmake\n'}
+[2.970818] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.973301] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_pyExport.cmake\n'}
+[2.974118] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/export_test_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.974952] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[2.975730] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.976705] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.977901] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.978599] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.979594] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.980493] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.981130] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interfaceConfig.cmake\n'}
+[2.981975] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/cmake/test_interfaceConfig-version.cmake\n'}
+[2.983231] (test_interface) StdoutLine: {'line': b'-- Up-to-date: /userdata/code_test/install/test_interface/share/test_interface/package.xml\n'}
+[2.984073] (test_interface) CommandEnded: {'returncode': 0}
+[3.025757] (-) TimerEvent: {}
+[3.120617] (test_interface) JobEnded: {'identifier': 'test_interface', 'rc': 0}
+[3.127342] (-) TimerEvent: {}
+[3.128394] (test_carcontrol) JobStarted: {'identifier': 'test_carcontrol'}
+[3.227558] (-) TimerEvent: {}
+[3.328454] (-) TimerEvent: {}
+[3.429307] (-) TimerEvent: {}
+[3.530168] (-) TimerEvent: {}
+[3.631025] (-) TimerEvent: {}
+[3.731911] (-) TimerEvent: {}
+[3.832762] (-) TimerEvent: {}
+[3.933639] (-) TimerEvent: {}
+[4.034487] (-) TimerEvent: {}
+[4.135420] (-) TimerEvent: {}
+[4.236277] (-) TimerEvent: {}
+[4.337154] (-) TimerEvent: {}
+[4.438015] (-) TimerEvent: {}
+[4.538878] (-) TimerEvent: {}
+[4.639715] (-) TimerEvent: {}
+[4.740583] (-) TimerEvent: {}
+[4.841532] (-) TimerEvent: {}
+[4.942443] (-) TimerEvent: {}
+[5.043340] (-) TimerEvent: {}
+[5.144291] (-) TimerEvent: {}
+[5.195647] (test_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_node', 'build', '--build-base', '/userdata/code_test/build/test_node/build', 'install', '--record', '/userdata/code_test/build/test_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/code_test/src/test_node', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.85.2 54659 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/userdata/code_test/install/test_interface/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata', 'TERM_PROGRAM_VERSION': '3.0.13', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-40dd420e-7945-4b6c-b59e-ab54c1507ed2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/code_test/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'OVSX_REGISTRY_URL': 'https://open-vsx.org', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '149', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/bin:/root/.npm-global/bin:/root/.local/bin:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/bin:/root/.npm-global/bin:/root/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-3350c10d19.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/code_test/install/test_interface:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_IPC_AUTH_TOKEN': '94eb33a1b0328b325389d44253b72640c256be00ee3dcde59a46d48526b55de5', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/code_test/build/test_node', 'SSH_CONNECTION': '192.168.85.2 54659 192.168.85.210 22', 'PYTHONPATH': '/userdata/code_test/build/test_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_node/lib/python3.10/site-packages:/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:/userdata/dev_ws/install/test_carcontrol/lib/python3.10/site-packages:/userdata/dev_ws/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/userdata/code_test/install/test_node/lib/python3.10/site-packages:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/userdata/code_test/install/test_interface'}, 'shell': False}
+[5.244471] (-) TimerEvent: {}
+[5.345392] (-) TimerEvent: {}
+[5.446227] (-) TimerEvent: {}
+[5.547054] (-) TimerEvent: {}
+[5.647898] (-) TimerEvent: {}
+[5.748837] (-) TimerEvent: {}
+[5.849753] (-) TimerEvent: {}
+[5.950674] (-) TimerEvent: {}
+[6.051525] (-) TimerEvent: {}
+[6.152394] (-) TimerEvent: {}
+[6.253254] (-) TimerEvent: {}
+[6.354104] (-) TimerEvent: {}
+[6.454980] (-) TimerEvent: {}
+[6.555844] (-) TimerEvent: {}
+[6.656699] (-) TimerEvent: {}
+[6.757554] (-) TimerEvent: {}
+[6.858447] (-) TimerEvent: {}
+[6.948657] (test_node) StdoutLine: {'line': b'running egg_info\n'}
+[6.952936] (test_node) StdoutLine: {'line': b'writing ../../build/test_node/test_node.egg-info/PKG-INFO\n'}
+[6.954268] (test_node) StdoutLine: {'line': b'writing dependency_links to ../../build/test_node/test_node.egg-info/dependency_links.txt\n'}
+[6.955344] (test_node) StdoutLine: {'line': b'writing entry points to ../../build/test_node/test_node.egg-info/entry_points.txt\n'}
+[6.956202] (test_node) StdoutLine: {'line': b'writing requirements to ../../build/test_node/test_node.egg-info/requires.txt\n'}
+[6.956890] (test_node) StdoutLine: {'line': b'writing top-level names to ../../build/test_node/test_node.egg-info/top_level.txt\n'}
+[6.958602] (-) TimerEvent: {}
+[6.968652] (test_node) StdoutLine: {'line': b"reading manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'\n"}
+[6.973445] (test_node) StdoutLine: {'line': b"writing manifest file '../../build/test_node/test_node.egg-info/SOURCES.txt'\n"}
+[6.974266] (test_node) StdoutLine: {'line': b'running build\n'}
+[6.974900] (test_node) StdoutLine: {'line': b'running build_py\n'}
+[6.975908] (test_node) StdoutLine: {'line': b'running install\n'}
+[6.977795] (test_node) StdoutLine: {'line': b'running install_lib\n'}
+[6.984845] (test_node) StdoutLine: {'line': b'running install_data\n'}
+[6.985731] (test_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.996623] (test_node) StdoutLine: {'line': b"removing '/userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.998159] (test_node) StdoutLine: {'line': b'Copying ../../build/test_node/test_node.egg-info to /userdata/code_test/install/test_node/lib/python3.10/site-packages/test_node-0.0.0-py3.10.egg-info\n'}
+[7.002640] (test_node) StdoutLine: {'line': b'running install_scripts\n'}
+[7.058794] (-) TimerEvent: {}
+[7.131716] (test_node) StdoutLine: {'line': b'Installing pwd_node script to /userdata/code_test/install/test_node/lib/test_node\n'}
+[7.133693] (test_node) StdoutLine: {'line': b"writing list of installed files to '/userdata/code_test/build/test_node/install.log'\n"}
+[7.158999] (-) TimerEvent: {}
+[7.259966] (-) TimerEvent: {}
+[7.354250] (test_node) CommandEnded: {'returncode': 0}
+[7.360135] (-) TimerEvent: {}
+[7.397092] (test_node) JobEnded: {'identifier': 'test_node', 'rc': 0}
+[7.460322] (-) TimerEvent: {}
+[7.561121] (-) TimerEvent: {}
+[7.662002] (-) TimerEvent: {}
+[7.762877] (-) TimerEvent: {}
+[7.828294] (test_carcontrol) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_carcontrol', 'build', '--build-base', '/userdata/code_test/build/test_carcontrol/build', 'install', '--record', '/userdata/code_test/build/test_carcontrol/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/code_test/src/test_carcontrol', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.85.2 54659 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/code_test/install/test_interface/lib:/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata', 'TERM_PROGRAM_VERSION': '3.0.13', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-40dd420e-7945-4b6c-b59e-ab54c1507ed2.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/code_test/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'OVSX_REGISTRY_URL': 'https://open-vsx.org', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MY_BOOT_INFO_PRINTED': '1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '149', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/bin:/root/.npm-global/bin:/root/.local/bin:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/bin:/root/.npm-global/bin:/root/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/root/.cursor-server/bin/48a15759f53cd5fc9b5c20936ad7d79847d914b0/bin/remote-cli:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-3350c10d19.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/line_follower_pkg:/userdata/dev_ws/install/ackermann_msgs:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/userdata/code_test/install/test_interface:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_IPC_AUTH_TOKEN': '94eb33a1b0328b325389d44253b72640c256be00ee3dcde59a46d48526b55de5', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/code_test/build/test_carcontrol', 'SSH_CONNECTION': '192.168.85.2 54659 192.168.85.210 22', 'PYTHONPATH': '/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/dev_ws/install/test_node/lib/python3.10/site-packages:/userdata/dev_ws/install/test_carcontrol/lib/python3.10/site-packages:/userdata/dev_ws/install/test_interface/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/line_follower_pkg/lib/python3.10/site-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/userdata/code_test/install/test_node/lib/python3.10/site-packages:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:/userdata/code_test/install/test_interface/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[7.863068] (-) TimerEvent: {}
+[7.963886] (-) TimerEvent: {}
+[8.064712] (-) TimerEvent: {}
+[8.165539] (-) TimerEvent: {}
+[8.266406] (-) TimerEvent: {}
+[8.367220] (-) TimerEvent: {}
+[8.468056] (-) TimerEvent: {}
+[8.568864] (-) TimerEvent: {}
+[8.669679] (-) TimerEvent: {}
+[8.770497] (-) TimerEvent: {}
+[8.871315] (-) TimerEvent: {}
+[8.972140] (-) TimerEvent: {}
+[9.072946] (-) TimerEvent: {}
+[9.173744] (-) TimerEvent: {}
+[9.274546] (-) TimerEvent: {}
+[9.375409] (-) TimerEvent: {}
+[9.476231] (-) TimerEvent: {}
+[9.571769] (test_carcontrol) StdoutLine: {'line': b'running egg_info\n'}
+[9.576022] (test_carcontrol) StdoutLine: {'line': b'writing ../../build/test_carcontrol/test_carcontrol.egg-info/PKG-INFO\n'}
+[9.576740] (-) TimerEvent: {}
+[9.577383] (test_carcontrol) StdoutLine: {'line': b'writing dependency_links to ../../build/test_carcontrol/test_carcontrol.egg-info/dependency_links.txt\n'}
+[9.579229] (test_carcontrol) StdoutLine: {'line': b'writing entry points to ../../build/test_carcontrol/test_carcontrol.egg-info/entry_points.txt\n'}
+[9.580029] (test_carcontrol) StdoutLine: {'line': b'writing requirements to ../../build/test_carcontrol/test_carcontrol.egg-info/requires.txt\n'}
+[9.580699] (test_carcontrol) StdoutLine: {'line': b'writing top-level names to ../../build/test_carcontrol/test_carcontrol.egg-info/top_level.txt\n'}
+[9.594194] (test_carcontrol) StdoutLine: {'line': b"reading manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'\n"}
+[9.602297] (test_carcontrol) StdoutLine: {'line': b"writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'\n"}
+[9.603282] (test_carcontrol) StdoutLine: {'line': b'running build\n'}
+[9.603947] (test_carcontrol) StdoutLine: {'line': b'running build_py\n'}
+[9.613306] (test_carcontrol) StdoutLine: {'line': b'running install\n'}
+[9.615076] (test_carcontrol) StdoutLine: {'line': b'running install_lib\n'}
+[9.629531] (test_carcontrol) StdoutLine: {'line': b'running install_data\n'}
+[9.632130] (test_carcontrol) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.643255] (test_carcontrol) StdoutLine: {'line': b"removing '/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[9.644816] (test_carcontrol) StdoutLine: {'line': b'Copying ../../build/test_carcontrol/test_carcontrol.egg-info to /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info\n'}
+[9.649292] (test_carcontrol) StdoutLine: {'line': b'running install_scripts\n'}
+[9.676925] (-) TimerEvent: {}
+[9.776501] (test_carcontrol) StdoutLine: {'line': b'Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.777222] (-) TimerEvent: {}
+[9.777754] (test_carcontrol) StdoutLine: {'line': b'Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.778599] (test_carcontrol) StdoutLine: {'line': b'Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.779376] (test_carcontrol) StdoutLine: {'line': b'Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.780158] (test_carcontrol) StdoutLine: {'line': b'Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.780870] (test_carcontrol) StdoutLine: {'line': b'Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.781551] (test_carcontrol) StdoutLine: {'line': b'Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.782208] (test_carcontrol) StdoutLine: {'line': b'Installing new_videologger_v2 script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.782810] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.783393] (test_carcontrol) StdoutLine: {'line': b'Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.784136] (test_carcontrol) StdoutLine: {'line': b'Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.784901] (test_carcontrol) StdoutLine: {'line': b'Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.785541] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.786209] (test_carcontrol) StdoutLine: {'line': b'Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.786966] (test_carcontrol) StdoutLine: {'line': b'Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.787575] (test_carcontrol) StdoutLine: {'line': b'Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.788178] (test_carcontrol) StdoutLine: {'line': b'Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.788876] (test_carcontrol) StdoutLine: {'line': b'Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.789987] (test_carcontrol) StdoutLine: {'line': b'Installing test_yolo_echo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol\n'}
+[9.795016] (test_carcontrol) StdoutLine: {'line': b"writing list of installed files to '/userdata/code_test/build/test_carcontrol/install.log'\n"}
+[9.877442] (-) TimerEvent: {}
+[9.978392] (-) TimerEvent: {}
+[9.995539] (test_carcontrol) CommandEnded: {'returncode': 0}
+[10.045223] (test_carcontrol) JobEnded: {'identifier': 'test_carcontrol', 'rc': 0}
+[10.049168] (-) EventReactorShutdown: {}

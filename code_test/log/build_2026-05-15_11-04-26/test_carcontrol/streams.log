@@ -1,0 +1,39 @@
+[4.712s] Invoking command in '/userdata/code_test/src/test_carcontrol': CMAKE_PREFIX_PATH=/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs LD_LIBRARY_PATH=/userdata/code_test/install/test_interface/lib:/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_carcontrol build --build-base /userdata/code_test/build/test_carcontrol/build install --record /userdata/code_test/build/test_carcontrol/install.log --single-version-externally-managed install_data
+[6.443s] running egg_info
+[6.447s] writing ../../build/test_carcontrol/test_carcontrol.egg-info/PKG-INFO
+[6.449s] writing dependency_links to ../../build/test_carcontrol/test_carcontrol.egg-info/dependency_links.txt
+[6.450s] writing entry points to ../../build/test_carcontrol/test_carcontrol.egg-info/entry_points.txt
+[6.451s] writing requirements to ../../build/test_carcontrol/test_carcontrol.egg-info/requires.txt
+[6.452s] writing top-level names to ../../build/test_carcontrol/test_carcontrol.egg-info/top_level.txt
+[6.465s] reading manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+[6.474s] writing manifest file '../../build/test_carcontrol/test_carcontrol.egg-info/SOURCES.txt'
+[6.474s] running build
+[6.475s] running build_py
+[6.485s] running install
+[6.486s] running install_lib
+[6.501s] running install_data
+[6.503s] running install_egg_info
+[6.515s] removing '/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info' (and everything under it)
+[6.516s] Copying ../../build/test_carcontrol/test_carcontrol.egg-info to /userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages/test_carcontrol-0.0.0-py3.10.egg-info
+[6.520s] running install_scripts
+[6.648s] Installing car_keyboard script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.649s] Installing depth_image script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.650s] Installing image_com script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.651s] Installing new_carctrl script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.651s] Installing new_ctrlpub script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.652s] Installing new_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.653s] Installing new_videologger script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.653s] Installing new_videologger_v2 script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.654s] Installing new_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.654s] Installing new_yolo_d script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.655s] Installing qrcode_wechat script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.656s] Installing test_carcontrol script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.657s] Installing test_llm script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.657s] Installing test_llm_local script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.658s] Installing test_pidcontroller script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.659s] Installing test_qrcode script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.659s] Installing test_resnet script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.660s] Installing test_yolo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.661s] Installing test_yolo_echo script to /userdata/code_test/install/test_carcontrol/lib/test_carcontrol
+[6.666s] writing list of installed files to '/userdata/code_test/build/test_carcontrol/install.log'
+[6.869s] Invoked command in '/userdata/code_test/src/test_carcontrol' returned '0': CMAKE_PREFIX_PATH=/userdata/code_test/install/test_interface:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/test_interface:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs LD_LIBRARY_PATH=/userdata/code_test/install/test_interface/lib:/userdata/dev_ws/install/test_interface/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/code_test/build/test_carcontrol/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/code_test/install/test_carcontrol/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/test_carcontrol build --build-base /userdata/code_test/build/test_carcontrol/build install --record /userdata/code_test/build/test_carcontrol/install.log --single-version-externally-managed install_data

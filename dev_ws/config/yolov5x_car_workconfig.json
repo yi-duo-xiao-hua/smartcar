@@ -1,5 +1,5 @@
 {
-	"model_file": "/userdata/code_test/src/test_carcontrol/model/model_best_0719.bin",
+	"model_file": "/userdata/code_test/src/test_carcontrol/model/yolov5_car.bin",
 	"task_num": 2,
 	"dnn_Parser": "yolov5x",
 	"model_output_count": 3,

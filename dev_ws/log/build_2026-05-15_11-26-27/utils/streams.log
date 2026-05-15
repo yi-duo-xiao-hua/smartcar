@@ -1,0 +1,44 @@
+[0.064s] Invoking command in '/userdata/dev_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/utils
+[0.120s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.961s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.003s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.189s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.208s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.250s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.416s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.640s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.652s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.191s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.513s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.759s] -- Found hbm_img_msgs: 2.0.0 (/opt/tros/humble/share/hbm_img_msgs/cmake)
+[3.292s] -- Configuring done
+[3.347s] -- Generating done
+[3.367s] -- Build files have been written to: /userdata/dev_ws/build/utils
+[3.417s] Invoked command in '/userdata/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/dev_ws/src/origincar/utils -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/userdata/dev_ws/install/utils
+[3.431s] Invoking command in '/userdata/dev_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/utils -- -j8 -l8
+[3.671s] Consolidate compiler generated dependencies of target image_transport_node
+[3.743s] [ 50%] Building CXX object CMakeFiles/image_transport_node.dir/src/image_transport_node.cpp.o
+[57.098s] [100%] Linking CXX executable image_transport_node
+[61.955s] [100%] Built target image_transport_node
+[62.015s] Invoked command in '/userdata/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/dev_ws/build/utils -- -j8 -l8
+[62.025s] Invoking command in '/userdata/dev_ws/build/utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/utils
+[62.070s] -- Install configuration: ""
+[62.072s] -- Execute custom install script
+[62.073s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/lib/utils/image_transport_node
+[62.074s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/ament_index/resource_index/package_run_dependencies/utils
+[62.075s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/ament_index/resource_index/parent_prefix_path/utils
+[62.076s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/environment/ament_prefix_path.sh
+[62.077s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/environment/ament_prefix_path.dsv
+[62.077s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/environment/path.sh
+[62.078s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/environment/path.dsv
+[62.079s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/local_setup.bash
+[62.080s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/local_setup.sh
+[62.081s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/local_setup.zsh
+[62.081s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/local_setup.dsv
+[62.082s] -- Symlinking: /userdata/dev_ws/install/utils/share/utils/package.dsv
+[62.125s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/ament_index/resource_index/packages/utils
+[62.127s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/cmake/utilsConfig.cmake
+[62.127s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/cmake/utilsConfig-version.cmake
+[62.128s] -- Up-to-date symlink: /userdata/dev_ws/install/utils/share/utils/package.xml
+[62.138s] Invoked command in '/userdata/dev_ws/build/utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/userdata/dev_ws/install/test_node:/userdata/dev_ws/install/test_carcontrol:/userdata/dev_ws/install/line_follower_pkg:/userdata/code_test/install/test_node:/userdata/code_test/install/test_carcontrol:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/dev_ws/build/utils

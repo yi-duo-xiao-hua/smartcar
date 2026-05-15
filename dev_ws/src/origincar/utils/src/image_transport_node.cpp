@@ -13,6 +13,7 @@
 // limitations under the License.
 
 #include "rclcpp/rclcpp.hpp"
+#include "rclcpp/qos.hpp"
 #include "std_msgs/msg/header.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include "sensor_msgs/msg/compressed_image.hpp"
@@ -31,9 +32,11 @@ public:
     {
         RCLCPP_INFO(this->get_logger(), node_name.c_str());
 
-        // 创建消息订阅者，从摄像头节点订阅图像消息
+        // 与 hobot_codec 在 /hbmem_img 上的发布端对齐：零拷贝 NV12 通常为 BEST_EFFORT，
+        // 默认 rclcpp 深度 QoS 为 RELIABLE，会导致「RELIABILITY_QOS_POLICY 不兼容、无消息」。
         sublisher_ = this->create_subscription<HbmMsg1080P>(
-            "/hbmem_img", 10, std::bind(&Nv122BGR::image_callback, this, std::placeholders::_1));
+            "/hbmem_img", rclcpp::SensorDataQoS(),
+            std::bind(&Nv122BGR::image_callback, this, std::placeholders::_1));
         compress_pub_ = this->create_publisher<CompressedImage>("/image_out/compressed", 10);
         image_pub_ = this->create_publisher<Image>("/image_out", 10);
     }
